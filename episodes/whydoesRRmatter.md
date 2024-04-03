@@ -1,4 +1,24 @@
+---
+title: "Why does Reproducibility matter?"
+teaching: 10
+exercises: 0
+---
+
+:::::::::::::::::::::::::::::::::::::: questions 
+
 Why does Reproducibility matter?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the relationship between knowledge and trust
+- Understand why reproducible research builds trust in our work
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 
 We write research papers to contribute knowledge, insights, or perspectives to a field of study. By publishing in a peer reviewed journal, we ask our audience to believe in what we say, to accept that the knowledge we have created is true.
 
