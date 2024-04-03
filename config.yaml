@@ -67,7 +67,7 @@ learners:
 
 # Information for Instructors
 instructors: 
-
+- callout.md
 # Learner Profiles
 profiles: 
 
