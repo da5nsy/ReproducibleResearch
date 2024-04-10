@@ -57,7 +57,11 @@ Special Characters:
 It is best to avoid punctuation or special characters in your cells or data entry. Some analysis tools may read certain characters incorrectly or produce an error. 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
 Point out the resources segment here, there's a really good tutorial in the Data Carpentry for Ecology page that covers a range of spreadsheet things
+
+This is also an opportunity to do a live exercise - you could pull up a bad dataset and ask participants to point out potential improvements.
+
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
 
