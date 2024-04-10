@@ -1,3 +1,9 @@
+---
+title: 'Step 2 - Keeping your files Tidy and Organized'
+teaching: 30
+exercises: 1
+---
+
 # Step 2 - Keeping your files Tidy and Organized
 
 
