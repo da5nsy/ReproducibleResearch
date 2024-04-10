@@ -45,20 +45,49 @@ This format includes a lot of benefits:
 
 When multiple people are entering data manually, it may be beneficial to use a survey that fills in a spreadsheet for you. This can include dropdown menu items to ensure consistancy in certain columns - for example, to eliminate a combination of "Monday, Mon, M, mon".
 
+Other useful concepts:
+
+Dates:
+
+Where possible, always use the formal YYYY-MM-DD for your dates. It will make searching for dates much easier. In addition, adding the additional zero (for example, March would be 03 ) means that when you sort your file, months and days will be in order. Otherwise, you may have Jan (1), Oct (10), Nov (11), Dec (12), Feb (2). 
+
+
+Special Characters:
+
+It is best to avoid punctuation or special characters in your cells or data entry. Some analysis tools may read certain characters incorrectly or produce an error. 
+
+::::::::::::::::::::::::::::::::::::::::::::::: instructor
+Point out the resources segment here, there's a really good tutorial in the Data Carpentry for Ecology page that covers a range of spreadsheet things
+::::::::::::::::::::::::::::::::::::::::::::::: 
+
+
 ### Qualitative Data Considerations
 
 ### How to handle missing data
 
+:::::::::::::::::::::::::::::::::::::::::::::::
 
-### Resources and Tools
+## Tools
 No coding:
 Open refine
 Using a survey tool to help with tidy data
 
 Coding:
 If you want to code, R tidyverse or Python Pandas
+:::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::::::::::
+## Resources
 
-References:
+[Common formatting problems - Data Carpentry](https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html)
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::::: callout
+
+## References
 
 Wickham, H. . (2014). Tidy Data. Journal of Statistical Software, 59(10), 1–23. https://doi.org/10.18637/jss.v059.i10 licenced as Creative Commons Attribution License (CC-BY)
+
+Broman, K. W., & Woo, K. H. (2018). Data Organization in Spreadsheets. The American Statistician, 72(1), 2–10. https://doi.org/10.1080/00031305.2017.1375989 licenced as Attribution-NonCommercial-NoDerivatives (CC-BY-NC-ND)
+
+:::::::::::::::::::::::::::::::::::::::::::::::
