@@ -67,9 +67,13 @@ This is also an opportunity to do a live exercise - you could pull up a bad data
 
 ### Qualitative Data Considerations
 
+When working with interviews, you may choose to only retain transcripts. However, it is also worth recording what non-verbal queues were shown. Is there a part of the interview where the participant expressed a strong emotion? Were they comfortable or nervous? Did they fidget a lot or laugh a lot? Long pauses? 
+
+Including any personal observations alongside a video can become incredibly useful when it comes to analysis time, or to refresh your memory upon review. It could also be important to support your insights when writing your paper.
+
 ### How to handle missing data
 
-:::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::  callout
 
 ## Tools
 No coding:
@@ -80,7 +84,7 @@ Coding:
 If you want to code, R tidyverse or Python Pandas
 :::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::: callout
 ## Resources
 
 [Common formatting problems - Data Carpentry](https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes.html)
