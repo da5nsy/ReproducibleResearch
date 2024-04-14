@@ -12,7 +12,10 @@ Let's look at a few concepts that can help.
 
 
 
-### How to structure Column Data - Tidy data format
+# How to structure Column Data - Tidy data format
+
+
+
 
 Tidy data developed by Hadley Wickham offer a set of rules to record, organise, and maintain data to ensure your analysis is effective, reproducible, and manageable.
 
@@ -32,28 +35,33 @@ The fundamental principles of tidy data are:
 
 Let's look at an example:
 
+
 Each variable is in a separate column  i.e. the thing you’re measuring, like ‘age’ or ‘temperature’ or ‘height’. 
 Each observation is in a separate row
 Each cell contains one value (either a number or character string) 
 
+
+
 Let's look at an example:
 
-![First example with full address in one cell](/episodes/fig/TidyDataExample1.png){alt='First Example where full address is in one cell'}
+![First example with full address in one cell](episodes/fig/TidyDataExample1.png){alt='First Example where full address is in one cell'}
 
 This format could cause a number of issues.
-- There is little control or guidance around when to use spaces, new lines or commas in this format. Commas especially can lead to a shift in data across your cells - meaning half of your address may end up in neighbouring cells, overwriting or shifting the rest of the line.
-- Searching via State or Postcode would be extremely complicated.
-- There is little clarity on what information should be included. One line contained the country, another did not. 
-- Difficult to see/check if some part of the address is missing.
+ - There is little control or guidance around when to use spaces, new lines or commas in this format. Commas especially can lead to a shift in data across your cells - meaning half of your address may end up in neighbouring cells, overwriting or shifting the rest of the line.
+ - Searching via State or Postcode would be extremely complicated.
+ - There is little clarity on what information should be included. One line contained the country, another did not. 
+ - Difficult to see/check if some part of the address is missing.
+
+
 
 Let's look at a tidy example:
 
-![Second example with address across multiple cells](/episodes/fig/TidyDataExample2.png){alt='Second example where information is broken down into individual cells'}
+![Second example with address across multiple cells](episodes/fig/TidyDataExample2.png){alt='Second example where information is broken down into individual cells'}
 
 This format includes a lot of benefits:
-- It is clear what is expected to include
-- Easier to search
-- Less likely to get extra whitespace or punctuation that could cause issues with analysis software
+ - It is clear what is expected to include
+ - Easier to search
+ - Less likely to get extra whitespace or punctuation that could cause issues with analysis software
 
 When multiple people are entering data manually, it may be beneficial to use a survey that fills in a spreadsheet for you. This can include dropdown menu items to ensure consistancy in certain columns - for example, to eliminate a combination of "Monday, Mon, M, mon".
 
