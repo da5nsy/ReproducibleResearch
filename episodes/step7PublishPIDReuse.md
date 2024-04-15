@@ -1,5 +1,5 @@
 ---
-title: 'Step Template'
+title: 'Publishing, Permanent Identifiers and Preparing for Reuse'
 teaching: 15
 exercises: 0
 ---

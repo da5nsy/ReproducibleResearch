@@ -4,6 +4,15 @@ teaching: 30
 exercises: 2
 ---
 
+
+::::::::::::::::::::::::::::::::::::::::::::::: instructor
+
+This is a massive lesson - you may want to put a break in the middle or just before this one.
+
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 :::::::::::::::::::::: testimonial
 
 "Documentation is a love letter to your future self" - Damian Conway
@@ -56,11 +65,17 @@ You may want to share it with your supervisor or trusted colleague, or just keep
 ***Consider your audience***
 
 Are you writing for:
+
  - Yourself?
+
  - Your supervisors?
+
  - Auditing purposes?
+
  - Reviewers and external researchers wanting to replicate your work?
+
  - Industry partners whom you may have a contract with?
+ 
  - Your research group?
 
 
