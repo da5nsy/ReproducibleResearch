@@ -8,9 +8,9 @@ exercises: 0
 How does this help our reproducibility?
 
 
-::::::::::::::::::::::::::::::::::::::::::::::: callout
+::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
-## References
+## Useful Resources
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
