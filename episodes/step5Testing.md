@@ -231,31 +231,50 @@ Again, R and Python have real strengths here, to have a list of tests you can ru
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
+### Physical Testing and Quality Assurance
 
-# Understanding and handling Risks
+Consider your 'hardware'- the machines and devices you use in your research. Are they callibrated? For your control samples, are you getting the expected outcomes?
 
+Consider your 'consumables' - Have your reagents gone out of date? Stored and labelled correctly? Did your blood samples heat up during transportation?
+
+***Document how you have checked and accounted for Quality Assurance***
+
+
+::::::::::::::::::::::::::::::::::::::::::::::: callout
+### Quality Assurance
+
+[Baker, M. How quality control could save your science. Nature 529, 456–458 (2016). https://doi.org/10.1038/529456a](https://doi.org/10.1038/529456a)
+
+
+::::::::::::::::::::::::::::::::::::::::::::
 
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
+# Understanding and handling Risks
+ TODO
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
-
-
 # What is your next step?
 
-#### As a Beginning step, a great place to start is....
+::: tab 
+
+
+
+### As a Beginning step, a great place to start is....
 
 Save your analysis pipeline and store it safely in your organised folders.
 
-#### As an Advanced step, your next move can be....
+### As an Advanced step, your next move can be....
 
-Ensure your data is well described (As per Step 2).
+ - Ensure your data is well described (As per Step 2).
 
-Check that it is clear which of your datasets pair with your Analysis pipelines and in what order.
+ - Check that it is clear which of your datasets pair with your Analysis pipelines and in what order.
 
+ - Publish your protocols and code.
+
+:::
 
 ::::::::::::::::::::::::::::::::::::::::::::::: callout
 
