@@ -15,11 +15,16 @@ exercises: 0
 
 ::: tab 
 
-#### As a Beginning step, a great place to start is....
+### Beginner
+
+A great place to start is:
 
 
 
-#### As an Advanced step, your next move can be....
+
+### Advanced
+
+Your next move can be:
 
 :::
 
