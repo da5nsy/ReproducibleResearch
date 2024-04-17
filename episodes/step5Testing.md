@@ -117,6 +117,10 @@ technical formulae and change to test hypotheses
 
 ***Publishing these pipelines, either as part of your publication, as a protocol or in a public repository such as OSF, Github or similar improves your reproducibility, and provides others a greater understanding of your work.***
 
+
+
+[Step 3 - Publishing Protocols link.](step3MethodStats.html#publishing-your-protocol)
+
 :::::::::::::::::::::::::::::::::::
 
 
@@ -220,13 +224,10 @@ Again, R and Python have real strengths here, to have a list of tests you can ru
 ### Coding Resources for testing the integrity of data
 
 
-[Testing for Python](https://github.com/ADACS-Australia/good-code-etiquette/blob/master/Testing.ipynb)
-
-The [Carpentries software programming courses](https://software-carpentry.org/lessons/) also run through some basic tests in their workshops
-
-[Testing for R](https://r-pkgs.org/testing-basics.html)
-
-[The Turing Way](https://the-turing-way.netlify.app/reproducible-research/code-quality/code-quality-robust) has a great tutorial on how to write robust code.
+ - [Testing for Python](https://github.com/ADACS-Australia/good-code-etiquette/blob/master/Testing.ipynb)
+ - The [Carpentries software programming courses](https://software-carpentry.org/lessons/) also run through some basic tests in their workshops
+ - [Testing for R](https://r-pkgs.org/testing-basics.html)
+ - [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/code-quality/code-quality-robust) has a great tutorial on how to write robust code.
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
