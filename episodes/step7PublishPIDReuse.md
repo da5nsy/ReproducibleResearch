@@ -201,28 +201,38 @@ There are a number of journals that specialise in these results.
 [The All Results Journals](https://arjournals.com/) – focuses on recovering and publishing negative results, valuable pieces of information in Chemistry, Nanotechnology, Biology, or Physics.
 
 
+::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
-# What could you include when publishing
-
-Wood-Charlson EM, Crockett Z, Erdmann C, Arkin AP, Robinson CB (2022) Ten simple rules for getting and giving credit for data. PLoS Comput Biol 18(9): e1010476. https://doi.org/10.1371/journal.pcbi.1010476
-
-Have limitations of the study been noted and justified/discussed?
-
-Reflective statements where the researchers consider how their own Bias /priviledges/worldviews may impact the findings
+### Information worth including in your paper or repository
 
 
-### Other
+ - Have limitations of the study been noted and justified/discussed?
+
+ - Have you discussed how you handled missing data?
+
+ - Should you include a reflective statement, with consideration on how your own bias/ priviledges/ world views may impact the findings?
+
+::::::::::::::::::::::::::::::::::::::::::::::: 
+
+::::::::::::::::::::::::::::::::::::::::::::::: discussion
+
+### Resources
 
 [Ten simple rules for improving research data discovery](https://doi.org/10.1371/journal.pcbi.1009768)
 
 
+[Ten simple rules for getting and giving credit for data](https://doi.org/10.1371/journal.pcbi.1010476)
+
 [Citing Software by ARDC](https://ardc.edu.au/resource/citing-software/?utm_source=Researcher%27s+guide+%28all+RDCs%29)
 
 
-[Publishing a Jupyter notebook in a Findable, Accessible, Interoperable and Reusable (FAIR) way]https://ardc.edu.au/resource/fair-for-jupyter-notebooks-a-practical-guide/
+[Publishing a Jupyter notebook in a Findable, Accessible, Interoperable and Reusable (FAIR) way](https://ardc.edu.au/resource/fair-for-jupyter-notebooks-a-practical-guide/)
 
 
-https://bssw.io/blog_posts/discontinuing-a-research-software-project
+[Discontinuing a research software project?](https://bssw.io/blog_posts/discontinuing-a-research-software-project)
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 # What is your next step?
 
@@ -239,7 +249,11 @@ Get yourself an ORCID id. This allows people to find and reach you easily. You c
 
 Your next move can be:
 
+Prepare your data, analysis pipelines/protocols and materials for FAIR or open publication. Make sure you've got your IP and licence associated with your work.
+
 :::
+
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::: callout
 
@@ -258,6 +272,6 @@ DOI Decision Tree for Data Managers Retrieved on 2024-04-17 at https://ardc.edu.
 
 ORCID (2024) Main Page. Retrieved on 2024-04-18 at https://orcid.org/ licenced as Public Domain.
 
-
+Wood-Charlson EM, Crockett Z, Erdmann C, Arkin AP, Robinson CB (2022) Ten simple rules for getting and giving credit for data. PLoS Comput Biol 18(9): e1010476. https://doi.org/10.1371/journal.pcbi.1010476
 
 :::::::::::::::::::::::::::::::::::::::::::::::
