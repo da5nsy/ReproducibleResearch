@@ -42,6 +42,8 @@ CC-By 4.0
 
 While focused on data management, how to bring Culture Change to
 
+
+
 ### How to see a culture change from different viewpoints
 
 Put each hat of different 
