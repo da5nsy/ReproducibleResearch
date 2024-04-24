@@ -286,8 +286,7 @@ We've documented our [ethics and governance](episodes/step4Doco.html) documents 
 
 We've licensed our pipelines and data to specify whether it can be reused or if it can be commercialised, and if we need to be cited.
 
-We can show [what testing](episodes/step5Testing.html) we've done to our datasets.
-
+We can show [what testing](episodes/step5Testing.html) we've done to our datasets to ensure validity.
 
 
 :::::::::::::::::::::::::::::: 
