@@ -100,6 +100,10 @@ shiny::includeHTML('./episodes/testinsert.html')
 
 {% include ./episodes/testinsert.md %}
 
-<div w3-include-html="./episodes/testinsert.html"> </div>
+
+ <div>
+    <iframe src="./episodes/testinsert.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" >
+    </iframe>
+  </div>
 
 
