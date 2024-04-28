@@ -23,3 +23,7 @@ Let's learn about 7 different concepts that can help us build reproducibility in
 @DMPcontact
 
 <div>{{ site.DMPcontact }}</div>
+
+    <div>
+        <a href="risks.md">3. Introducing 7 Reproducible Research Things</a>
+    </div>
