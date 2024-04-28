@@ -22,8 +22,9 @@ Let's learn about 7 different concepts that can help us build reproducibility in
 
 @DMPcontact
 
-{{ site.DMPcontact }}
+<div>{{ site.DMPcontact }}</div>
 
+A1
 
 <div class="accordion accordion-flush" id="accordionFlush09">
   <div class="accordion-item">
@@ -35,6 +36,9 @@ Let's learn about 7 different concepts that can help us build reproducibility in
   </div>
 <!--/div.accordion-item-->
 </div>
+
+
+A2
 
 <div class="accordion accordion-flush" id="accordionFlush10">
   <div class="accordion-item">
