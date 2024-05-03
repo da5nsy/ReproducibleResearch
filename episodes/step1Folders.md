@@ -50,6 +50,10 @@ The following resources can help you build your plan:
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 
+Does your institute have a Data Management policy, procedure or page that can be linked for your attendees?
+
+This is a great place to put it!
+
 Link to your institutional Data Management Planning Page
 
 
@@ -151,7 +155,10 @@ If you are working in a Windows system and mounting a drive on your computer, th
 
 For example, if you have on a hard drive a file called 
 
-\mainDrive\ProjectWildMappingAcrossAust\Australia\Queensland\GoldCoast\SiteHinesDam\WildlifeMapping_2022_04_20\Collected_by_Amanda_Miotto\Griffith_UniversityQld\Dataset_WildIbis\Ibis_Observed_on_2022_4_20\Sector_35_x_328\Upper_Water_Level\Hourly_Count_of_organisms\2024_04_20_13h_53min.csv
+\mainDrive\ProjectWildMappingAcrossAust\Australia\Queensland\
+GoldCoast\SiteHinesDam\WildlifeMapping_2022_04_20\Collected_by_Amanda_Miotto\
+Griffith_UniversityQld\Dataset_WildIbis\Ibis_Observed_on_2022_4_20\
+Sector_35_x_328\Upper_Water_Level\Hourly_Count_of_organisms\2024_04_20_13h_53min.csv
 
 And you wanted to map this \mainDrive folder onto your computer, this would fail.
 
