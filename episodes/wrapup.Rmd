@@ -20,6 +20,9 @@ A place to share what is happening at your own institutes, and where attendees c
 
 :::::::::::::::::::::::::::::::::::::::::::::::
 
+```{r child="files/whereToFromHere.Rmd"}
+```
+
 
 For each of our 7 lessons, do we have an action item?
 

@@ -41,6 +41,9 @@ Again, R and Python have real strengths here, to have a list of tests you can ru
 
  - [The Turing Way](https://the-turing-way.netlify.app/reproducible-research/code-quality/code-quality-robust) has a great tutorial on how to write robust code.
 
+ ```{r child="files/DataSciCode.Rmd"}
+```
+
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: discussion
@@ -215,9 +218,12 @@ This is also where R and Python have huge strengths. Writing an R or Python scri
 
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
-Insert R and Python service plug here. You've probably already included it elsewhere, just remind people at this point.
+A good time for suggestions on where to learn R and Python. You've probably already included it elsewhere, just remind people at this point.
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
+
+```{r child="files/DataSciCode.Rmd"}
+```
 
 If you are using a random number generator, take note of the seed number.
 
@@ -255,6 +261,8 @@ Include links from your institute about where to publish analysis pipelines - yo
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
+```{r child="files/publishAnalysisPipe.Rmd"}
+```
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: discussion

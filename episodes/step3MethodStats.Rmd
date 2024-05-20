@@ -41,11 +41,8 @@ Prominent registries include:
 
 
 
-::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Does your library have pages on preregistration and registering protocols? Is there people at your institute who assist researchers with this? Include them here!
-
-::::::::::::::::::::::::::::::::::::::::::::::: 
+```{r child="files/prereg.Rmd"}
+```
 
 
 ## Registered Reports
@@ -81,7 +78,8 @@ This really did come up time and time again when talking to researchers on how t
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
-
+```{r child="files/statsRmethods.Rmd"}
+```
 
 
 ## Publishing your Protocol
