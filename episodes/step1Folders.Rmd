@@ -23,6 +23,11 @@ Link to your institutional Data Management Planning Page
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+```{r child="files/dmpinfo.Rmd"}
+```
+
+
 The following resources can help you build your plan:
 
 - [Aust Research Data Commons - Data Management Plans](https://ardc.edu.au/resource/data-management-plans/)
@@ -77,6 +82,9 @@ You may get a question on recovery verses backup - have a chat to your storage t
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+```{r child="files/datastorage.Rmd"}
+```
 
 
 ***Don't forget - backups are your friend here. ***

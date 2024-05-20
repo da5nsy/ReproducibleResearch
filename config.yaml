@@ -62,14 +62,14 @@ episodes:
 - introduction.md
 - whydoesRRmatter.md
 - introofRRthings.md
-- step1Folders.md
-- step2TidyFiles.md
-- step3MethodStats.md
-- step4Doco.md
-- step5Testing.md
-- step6Automate.md
-- step7PublishPIDReuse.md
-- wrapup.md
+- step1Folders.Rmd
+- step2TidyFiles.Rmd
+- step3MethodStats.Rmd
+- step4Doco.Rmd
+- step5Testing.Rmd
+- step6Automate.Rmd
+- step7PublishPIDReuse.Rmd
+- wrapup.Rmd
 
 
 # Information for Learners
