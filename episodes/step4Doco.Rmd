@@ -582,7 +582,7 @@ Hollmann S, Frohme M, Endrullat C, Kremer A, D’Elia D, Regierer B, et al. (202
 
 Image:
 
-Sonja Bezjak, April Clyburne-Sherin, Philipp Conzett, Pedro Fernandes, Edit Görögh, Kerstin Helbig, Bianca Kramer, Ignasi Labastida, Kyle Niemeyer, Fotis Psomopoulos, Tony Ross-Hellauer, René Schneider, Jon Tennant, Ellen Verbakel, Helene Brinken, & Lambert Heller. (2018). Open Science Training Handbook (1.0) - File:Open Science Training Handbook 03.png[Computer software]. Zenodo. https://doi.org/10.5281/zenodo.1212496 licenced as CC0 Public Domain.
+Sonja Bezjak, April Clyburne-Sherin, Philipp Conzett, Pedro Fernandes, Edit Görögh, Kerstin Helbig, Bianca Kramer, Ignasi Labastida, Kyle Niemeyer, Fotis Psomopoulos, Tony Ross-Hellauer, René Schneider, Jon Tennant, Ellen Verbakel, Helene Brinken, & Lambert Heller. (2018). Open Science Training Handbook (1.0) - File : Open Science Training Handbook 03.png[Computer software]. Zenodo. https://doi.org/10.5281/zenodo.1212496 licenced as CC0 Public Domain.
 
 
 A shout out to the people in the Cauliflower Pizza story - Thanks for letting me share it! @amandamiotto
