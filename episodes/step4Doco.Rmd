@@ -24,7 +24,7 @@ This is a massive lesson - you may want to put a break in the middle or just bef
 We've talked about writing down or noting a lot of information .... but where do we do this? How? What exactly should we write down?
 
 
-Some researchers may think about a lab handbook, a group instruction guide, a team wiki or a knowledge repository. In the IT and computation space, the word "Documentation" is used as a place to store all information about that project. 
+Some researchers may think about a lab handbook, a group instruction guide, a team wiki or a knowledge repository. In the IT and Computation space, the word "Documentation" is used as a place to store all information about that project. 
 
 For our purposes today, we will use "Documentation" as a place to write down notes about your work, link to important documents or share information across a research group.
 
