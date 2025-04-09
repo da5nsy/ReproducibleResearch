@@ -13,8 +13,7 @@ You can use this for your advert when advertising your workshop.
 
 ::::::::::::::::::::::::::::::::::::: 
 
-Reproducibility is important to the future of research, and is all about working collaboratively, and openly with others. In this workshop we will introduce concepts and tools that researchers are
-developing and using which aim to make their research more reproducible – so that others can examine their processes, and build on top of findings more easily.
+Reproducibility is important to the future of research, and is all about working collaboratively, and openly with others. In this workshop we will introduce concepts and tools that researchers are developing and using which aim to make their research more reproducible – so that others can examine their processes, and build on top of findings more easily.
 
 Our 7 steps for reproducible research:
 1. Planning to be Organised
@@ -27,8 +26,7 @@ Our 7 steps for reproducible research:
 
 ### Intended audience
 
-This workshop is aimed at UGs, PGTs, and ECRs who are interested in learning more about open and reproducible research, and how it can make their work easier and stronger. No prior skills or
-knowledge are needed.
+This workshop is aimed at UGs, PGTs, and ECRs who are interested in learning more about open and reproducible research, and how it can make their work easier and stronger. No prior skills or knowledge are needed.
 
 
 #### All disciplines welcome
