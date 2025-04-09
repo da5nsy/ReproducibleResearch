@@ -14,7 +14,7 @@ carpentry: 'incubator'
 title: '7 Steps towards Reproducible Research'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: '2024-04-01'
+created: '2025-04-09'
 
 # Comma-separated list of keywords for the lesson
 keywords: 'reproducible, reproducible research, knowledge trust, knowledge retention, data management, data, lesson, The Carpentries'
@@ -27,13 +27,13 @@ life_cycle: 'pre-alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md'
+source: 'https://github.com/da5nsy/ReproducibleResearch'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'a.miotto@griffith.edu.au'
+contact: 'dannygarside@outlook.com'
 
 # Navigation ------------------------------------------------
 #
