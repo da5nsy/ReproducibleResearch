@@ -11,39 +11,6 @@ exercises: 0
 
 A data management plan (DMP) is a living document for a research project, which outlines data creation, data policies, access and ownership rules, management practices, management facilities and equipment, and who will be responsible for what.
 
-::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-
-Does your institute have a Data Management policy, procedure or page that can be linked for your attendees?
-
-This is a great place to put it!
-
-Link to your institutional Data Management Planning Page
-
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-```{r child="files/dmpinfo.Rmd"}
-```
-
-
-
-The following resources can help you build your plan:
-
-- [Aust Research Data Commons - Data Management Plans](https://ardc.edu.au/resource/data-management-plans/)
-
-- [Elixir - What to include in your data management plan](https://rdmkit.elixir-europe.org/data_management_plan)
-
-- [University of Oxford - DMP template examples](https://researchdata.ox.ac.uk/dmp-templates)
-
-- [DCC - Example UK plans](https://www.dcc.ac.uk/resources/data-management-plans/guidance-examples)
-
-- [Where can I find DMP templates?](https://www.youtube.com/watch?v=HooeSaj3dQM)
-
-
-Around 50% of research projects reuse at least some of their previous project data - Is this data a subset of a previous project's data? Did it come from an external collaborator or an open repository? How does this affect your project?
-
 
 ### Folder Structures
 
