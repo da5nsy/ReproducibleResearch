@@ -34,11 +34,6 @@ This workshop is aimed at UGs, PGTs, and ECRs who are interested in learning mor
 This course intends to be discipline-neutral.
 
 
-#### What to bring?
-As an attendee, you won’t need to prepare anything for this workshop. It is suggested you have a notepad or document open for activities.
-There won’t be datasets or programs needed for these lessons.
-
-
 #### All skill levels welcome
 
 This course is not aimed at taking you to 100% in Reproducible Research - instead it aims to introduce you to reproducible research techniques that can aid your projects, and provide good
