@@ -1,4 +1,4 @@
-are---
+---
 title: 'Wrapping up'
 teaching: 10
 exercises: 0
