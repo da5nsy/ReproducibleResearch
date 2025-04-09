@@ -1,4 +1,4 @@
----
+are---
 title: 'Wrapping up'
 teaching: 10
 exercises: 0
@@ -24,7 +24,10 @@ A place to share what is happening at your own institutes, and where attendees c
 ```
 
 
-For each of our 7 lessons, do we have an action item?
+If you could pick one thing to do differently in your research right now, what would it be?
+What tools and ideas are most relevent to you? Which ideas _don't_ feel relevent to you right now?
+For each of our 7 lessons, do we have an action item that ideally we would do?
+What are the barriers going to be?
 
 Let’s establish concrete action items for the upcoming week or two based on the tasks we’ve just documented.
 
