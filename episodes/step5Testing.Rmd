@@ -7,7 +7,7 @@ exercises: 0
 
 ## Testing for Validity and Integrity
 
-Unintended changes to datasets happen all the time. An added comma in a sentence can throw out a line in a spreadsheet. Missing data can alter a calculation. A broken link or download that didn't complete properly can short us of data without us realising.
+Unintended changes to datasets can happen easily. An added comma in a sentence can throw out a line in a spreadsheet. Missing data can alter a calculation. A broken link or download that didn't complete properly can give us incomplete data without us realising.
 
 But what can we do about this?
 
@@ -23,9 +23,7 @@ There are a few checks we can run to help identify when this has happened.
 
  - Does an analysis fail to run? If you look into it, there may be an unexpected value, such as a letter where it was expecting a number.
 
-[Open Refine](https://openrefine.org/) is a good tool for inspecting your data.
-
-Again, R and Python have real strengths here, to have a list of tests you can run as often as you need. For example, R has a function called 'head' that prints the first 6 lines of any file, so you can do a visual check of the data quickly.
+Again, R and Python have real strengths here, as you can run certain code to help you find probelmatic entries. For example, R has a function called 'head' that prints the first 6 lines of any file, so you can do a visual check of the data quickly. You can also use functions like filter() to filter out any rows with values above or below what is expected.
 
 ::::::::::::::::::::::::::::::::::::::::::::::: callout
 
@@ -48,19 +46,12 @@ Again, R and Python have real strengths here, to have a list of tests you can ru
 
 ::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
-## Microsoft Excel changing Gene names
+## Microsoft Excel default settings
 
 As per the following paper:
 Ziemann, M., Eren, Y. & El-Osta, A. Gene name errors are widespread in the scientific literature. Genome Biol 17, 177 (2016). https://doi.org/10.1186/s13059-016-1044-7 licenced as CC-BY 4.0
 
-" The spreadsheet software Microsoft Excel, when used with default settings, is known to convert gene names to dates and floating-point numbers. A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions."
-
-
-In a follow up story:
-Abeysooriya M, Soria M, Kasu MS, Ziemann M (2021) Gene name errors: Lessons not learned. PLoS Comput Biol 17(7): e1008984. https://doi.org/10.1371/journal.pcbi.1008984
-
-"[The previous] article on this topic led the Human Gene Name Consortium to change many of these gene names to be less susceptible to autocorrect."
-
+" The spreadsheet software Microsoft Excel, when used with default settings has a tenadency to automatically convert values. The result maybe that data is converted into a format you don't need, for example converting date data from UK date format of dd/mm/yyyy to mm/dd/yyyy. In the paper above the authors highlight that Excel is known to convert gene names to dates and floating-point numbers. The error is common and has even made it into approximately one-fifth of papers with supplementary Excel gene lists."
 
 To remedy this, there is now an option to turn off automatic data conversion - but you need to be aware of it.
 
@@ -68,7 +59,7 @@ It was suggested to reviewers and editorial staff:
 
 "the kind of errors we describe can be spotted by copying the column of gene names and pasting it into a new sheet, and then sorting the column. Any gene symbols converted to dates will appear as numbers at the top of the column."
 
-
+Make sure if you are importing or exporting data into software like Excel, that you double check any potential areas where a default formatting option could impact your data.
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
@@ -240,13 +231,7 @@ technical formulae and change to test hypotheses
 
 
 
-:::::::::::::::::::::::::::::::::::::::: testimonial
-
-***Publishing these pipelines, either as part of your publication, as a protocol or in a public repository such as OSF, Github or similar improves your reproducibility, and provides others a greater understanding of your work.***
-
-
-
-[Step 3 - Publishing Protocols link.](step3MethodStats.html#publishing-your-protocol)
+:::::::::::::::::::::::::::::::::::::::: 
 
 :::::::::::::::::::::::::::::::::::
 
@@ -282,8 +267,6 @@ You may be making changes to your analysis pipeline as you go
 
  - What version of software are you using? 
 
- - Have you noted what version of the libraries you are using are? 
-
  - Have you noted the name, model and version number of any hardware you may be using (for example, cameras, microscopes, MRI machines, IoT sensors)?
 
 Version control is keeping track of each change you have made, so that if you need to go back to a previous version of your analysis pipeline, you can!
@@ -298,49 +281,9 @@ You can use the first number as a major step in versions (for example, Draft v1.
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
-
-#### Using computational tools
-
-If you are using R or Python, your next best friend is Git. 
-
-Git is a program to track changes in your code. You may have heard of Github or Gitlab - these are cloud platforms that use the Git program to track your code as you write it.
-
-Sharing your analysis pipeline then becomes easy. You can even write reports with both plain text, R or Python code and the results in graphs in platforms such as Jupyter.
-
-
-::::::::::::::::::::::::::::::::::::::::::::::: callout
-
-### To learn more about Git
-
-[The British Ecological Society](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf) has a great Git tutorial under 'Version Control'.
-
-[Start your journey in GitHub](https://docs.github.com/en/get-started/start-your-journey/hello-world)
-
-The Carpentries has a [Software Carpentry - Version Control with Git](https://swcarpentry.github.io/git-novice/) lesson you can follow.
-
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
 Retaining a copy of your raw data prior to any cleaning or analysis is also useful to version control.
-
-### Containers
-
-You may even want to try [Containers](https://carpentries-incubator.github.io/docker-introduction/) to publish your workflows. Think about Containers like a machine with all the instructions and installations inside - you can pass this box to others. They can put data into the machine, and processed data comes out the other side, without needing to pull apart and put the box together.
-
-Containers also build automation into our workflows - we'll talk more about automation in our next lesson.
-
-### Using Machine Learning?
-
-The following paper may be useful to learn about ML platforms and reproducibility.
-
-[R. Isdahl and O. E. Gundersen, "Out-of-the-Box Reproducibility: A Survey of Machine Learning Platforms," 2019 15th International Conference on eScience (eScience), San Diego, CA, USA, 2019, pp. 86-95, doi: 10.1109/eScience.2019.00017.](https://10.1109/eScience.2019.00017)
-
-
-
-# What is your next step?
-
-::: tab 
-
-
 
 ### Beginner
 
