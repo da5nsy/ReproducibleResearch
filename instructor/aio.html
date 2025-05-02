@@ -498,15 +498,15 @@ arise.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
 <p>A result is reproducible when the same analysis steps performed on
 the same dataset consistently produces the same answer.</p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
+<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
 <p>A result is replicable when the same analysis performed on different
 datasets produces qualitatively similar answers.</p>
 </div>
-<div id="nav-tabpanel-1-3" class="tab-pane" aria-labelledby="nav-tab-1-3" role="tabpanel">
+<div id="nav-tabpanel-1-3" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-3">
 <p>A result is robust when the same dataset is subjected to different
 analysis workflows to answer the same research question (for example one
 pipeline written in R and another written in Python) and a qualitatively
@@ -514,7 +514,7 @@ similar or identical answer is produced. Robust results show that the
 work is not dependent on the specificities of the programming language
 chosen to perform the analysis.</p>
 </div>
-<div id="nav-tabpanel-1-4" class="tab-pane" aria-labelledby="nav-tab-1-4" role="tabpanel">
+<div id="nav-tabpanel-1-4" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-4">
 <p>Combining replicable and robust findings allow us to form
 generalisable results. Note that running an analysis on a different
 software implementation and with a different dataset does not provide
@@ -950,7 +950,7 @@ it.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>This is a good time to talk about what research data storage options
 you have at your institute. Discuss backing up your data.</p>
@@ -1059,7 +1059,7 @@ contains what?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Now consider this folder - is it clear what the order is? Do you feel
 you could track this better?</p>
@@ -1662,14 +1662,14 @@ a data file structure by CESSDA</a></p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
 <p>A great place to start is:</p>
 <ul>
 <li>Decide how to handle missing data</li>
 <li>Use YYYY-MM-DD for dates</li>
 </ul>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
+<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
 <p>Your next move can be:</p>
 <p>You can start to work in a data science language such as R or Python.
 <a href="https://software-carpentry.org/lessons/" class="external-link">The Carpentries</a>
@@ -1763,10 +1763,10 @@ You may want to use part of this data for your next study, and need to
 remember why you discounted a paper, or if you felt there was bias
 unaccounted for in a study.</p>
 <ul>
-<li><p>What databases did you search?</p></li>
-<li><p>What search terms did you use?</p></li>
-<li><p>What filters did you use?</p></li>
-<li><p>Why did you include or dismiss certain papers?</p></li>
+<li>What databases did you search?</li>
+<li>What search terms did you use?</li>
+<li>What filters did you use?</li>
+<li>Why did you include or dismiss certain papers?</li>
 </ul>
 <p>Using a reference manager, such as <a href="https://www.zotero.org/" class="external-link">Zotero</a> makes managing papers and your
 notes on papers much easier. It also means that you can automatically
@@ -1776,38 +1776,39 @@ generate a bibliography in the required format within a paper.</p>
 <hr class="half-width">
 <p>When you preregister your research, you are specifying your research
 plan in advance of your study and submitting it to a registry.</p>
-<p>Preregistration separates hypothesis-generating (exploratory) from
-hypothesis-testing (confirmatory) research. Both are important. But the
-same data cannot be used to generate and test a hypothesis, which can
-happen unintentionally and reduce the credibility of your results.
+<p>Preregistration separates hypothesis-testing (confirmatory) from
+hypothesis-generating (exploratory) research. Both are important. But
+the same data cannot be used to generate and test a hypothesis, which
+can happen unintentionally and reduce the credibility of your results.
 Addressing this problem through planning improves the quality and
 transparency of your research. This helps you clearly report your study
-and helps others who may wish to build on it.</p>
+and helps others who may wish to build on it. This can help you to avoid
+accidentally HARKing (hypothesising after results are known) which is
+easy to slip into otherwise - with hindsight it’s very easy to think:
+“Oh of course this is what we expected!…”</p>
 <p>Prominent registries include:</p>
 <ul>
-<li><p><a href="https://osf.io/registries" class="external-link">OSF Registries</a>. OSF
+<li>
+<a href="https://osf.io/registries" class="external-link">OSF Registries</a>. OSF
 Registries is the most widely used repository for preregistering
-studies.</p></li>
-<li><p><a href="https://www.protocols.io/" class="external-link">protocols.io</a>. A platform
+studies.</li>
+<li>
+<a href="https://www.protocols.io/" class="external-link">protocols.io</a>. A platform
 designed specifically for the preregistration of protocols and
-methods.</p></li>
-<li><p>For clinical trials, there is a list of <a href="https://training.cochrane.org/handbook" class="external-link">international registries
-in the Cochrane</a> handbook.</p></li>
-<li><p>See the <a href="https://doapr.coar-repositories.org/repositories" class="external-link">Directory of
+methods.</li>
+<li>For clinical trials, there is a list of <a href="https://training.cochrane.org/handbook" class="external-link">international registries
+in the Cochrane</a> handbook.</li>
+<li>See the <a href="https://doapr.coar-repositories.org/repositories" class="external-link">Directory of
 Open Access Preprint Repositories</a> for discipline specific
-repositories</p></li>
-</ul>
-<!-- Got any organisation information on preregistration or registering protocols? Include it below.
-
-This information will appear on https://amandamiotto.github.io/ReproducibleResearch/instructor/step3MethodStats.html#preregistration
-
---></section><section><h2 class="section-heading" id="registered-reports">Registered Reports<a class="anchor" aria-label="anchor" href="#registered-reports"></a>
+repositories</li>
+</ul></section><section><h2 class="section-heading" id="registered-reports">Registered Reports<a class="anchor" aria-label="anchor" href="#registered-reports"></a>
 </h2>
 <hr class="half-width">
 <p>You may want to consider a <a href="https://the-turing-way.netlify.app/communication/dif-articles/reg#cm-dif-articles-registered-reports" class="external-link">Registered
 Report</a></p>
 <p>The <a href="https://www.cos.io/initiatives/registered-reports" class="external-link">Center for Open
 Science</a> provides the following definition:</p>
+<blockquote>
 <p>“Registered Reports is a publishing format that emphasizes the
 importance of the research question and the quality of methodology by
 conducting peer review prior to data collection. High quality protocols
@@ -1818,8 +1819,25 @@ hypothetico-deductive model of the scientific method. It eliminates a
 variety of questionable research practices, including low statistical
 power, selective reporting of results, and publication bias, while
 allowing complete flexibility to report serendipitous findings. ”</p>
+</blockquote>
 <p>Here is a <a href="https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit#gid=0" class="external-link">list
 of participating journals</a> with details on their options.</p>
+<!-- Got any organisation information on preregistration or registering protocols? Include it below.
+
+This information will appear on https://amandamiotto.github.io/ReproducibleResearch/instructor/step3MethodStats.html#preregistration
+
+-->
+<p>On Thursday, June 5 Sussex will be providing a workshop on “Getting
+started with pre-registration and Registered Reports”.</p>
+<blockquote>
+<p>Part of the Becoming an Open Researcher programme, this introductory
+workshop will clarify the differences between preregistration and
+Registered Reports, provide practical advice on using preregistration
+tools and explore effective implementation strategies. In addition, it
+provides a chance to meet with others who share the same commitment to
+fostering open research practices.</p>
+</blockquote>
+<p>Link to register: <a href="https://www.eventbrite.co.uk/e/getting-started-with-pre-registration-and-registered-reports-tickets-1311917192639" class="external-link uri">https://www.eventbrite.co.uk/e/getting-started-with-pre-registration-and-registered-reports-tickets-1311917192639</a></p>
 </section><section><h2 class="section-heading" id="transparent-methodologies-and-protocols">Transparent Methodologies and Protocols<a class="anchor" aria-label="anchor" href="#transparent-methodologies-and-protocols"></a>
 </h2>
 <hr class="half-width">
@@ -1842,7 +1860,7 @@ and documenting excluded data to avoid bias.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>This really did come up time and time again when talking to
 researchers on how they established trust in a paper. This lesson is a
@@ -1861,17 +1879,22 @@ This will appear on https://amandamiotto.github.io/ReproducibleResearch/instruct
 </section><section><h2 class="section-heading" id="publishing-your-protocol">Publishing your Protocol<a class="anchor" aria-label="anchor" href="#publishing-your-protocol"></a>
 </h2>
 <hr class="half-width">
-<p>Benefits to publishing your protocols:</p>
+<div class="section level3">
+<h3 id="benefits-to-publishing-your-protocols">Benefits to publishing your protocols:<a class="anchor" aria-label="anchor" href="#benefits-to-publishing-your-protocols"></a>
+</h3>
 <ul>
-<li><p>Builds trust in your work</p></li>
-<li><p>Enables discovery</p></li>
-<li><p>Expands your publication records</p></li>
-<li><p>Offers an early opportunity for peer review, with an opportunity
-for feedback and improvements</p></li>
-<li><p>It creates an early record of your novel methodologies, software,
-and/or innovations</p></li>
+<li>Builds trust in your work</li>
+<li>Enables discovery</li>
+<li>Expands your publication records</li>
+<li>Offers an early opportunity for peer review, with an opportunity for
+feedback and improvements</li>
+<li>It creates an early record of your novel methodologies, software,
+and/or innovations</li>
 </ul>
-<p>Where can you publish your protocols?</p>
+</div>
+<div class="section level3">
+<h3 id="where-can-you-publish-your-protocols">Where can you publish your protocols?<a class="anchor" aria-label="anchor" href="#where-can-you-publish-your-protocols"></a>
+</h3>
 <ul>
 <li><p><a href="https://www.protocols.io/" class="external-link">Protocols.io</a> is dedicated
 to protocol publication.</p></li>
@@ -1891,6 +1914,7 @@ should be published.</p></li>
 <p>See <a href="https://www.youtube.com/watch?v=CzpY4A5G70s&amp;list=PLWb8IFSVeQ620plPweZIQSGQODpGOww8r&amp;index=3" class="external-link">methods
 &amp; protocols - ReproducibiliTeach</a> for the differences between
 protocol journals and protocol repositories (at 23:33).</p>
+</div>
 </section><div class="section level1">
 <h1 id="what-is-your-next-step">What is your next step?<a class="anchor" aria-label="anchor" href="#what-is-your-next-step"></a>
 </h1>
@@ -1908,14 +1932,14 @@ protocol journals and protocol repositories (at 23:33).</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
 <p>A great place to start is:</p>
 <p>Learning about how preregistration and registering protocols work by
 checking out some of these <a href="https://www.youtube.com/@reproducibiliteach/videos" class="external-link">ReproducibiliTeach
 videos</a> or check out this <a href="https://book.the-turing-way.org/reproducible-research/rdm/rdm-methods.html?highlight=protocol#open-methods-protocols" class="external-link">The
 Turing Way page on Methods and Protocols</a></p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
+<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
 <p>Your next move can be:</p>
 <p>Get started on publishing that protocol and prepublication! You can
 use <a href="https://youtu.be/aKiXFzj15dg" class="external-link">How to write a reusable,
@@ -1949,41 +1973,39 @@ licenced under CC-BY 4.0 licence</p>
 <h3 class="callout-title">In this lesson, we have learnt:</h3>
 <div class="callout-content">
 <ul>
-<li><p>What details to keep about our literature reviews</p></li>
-<li><p>About Preregistrations and where to submit</p></li>
-<li><p>About Registered Reports formats and when they are
-appropriate</p></li>
-<li><p>What details to include about your methodologies and
-protocols</p></li>
-<li><p>Why and where to publish your protocols</p></li>
+<li>What details to keep about our literature reviews</li>
+<li>About Preregistrations and where to submit</li>
+<li>About Registered Reports formats and when they are appropriate</li>
+<li>What details to include about your methodologies and protocols</li>
+<li>Why and where to publish your protocols</li>
 </ul>
 <div class="section level4">
 <h4 id="we-build-trust-in-our-knowledge-by">We build trust in our knowledge by:<a class="anchor" aria-label="anchor" href="#we-build-trust-in-our-knowledge-by"></a>
 </h4>
 <ul>
-<li><p>By being open on our plans in our registered reports and
-preregistrations</p></li>
-<li><p>Publishing our protocols</p></li>
-<li><p>Being detailed in our methodologies</p></li>
+<li>By being open on our plans in our registered reports and
+preregistrations</li>
+<li>Publishing our protocols</li>
+<li>Being detailed in our methodologies</li>
 </ul>
 </div>
 <div class="section level4">
 <h4 id="we-retain-knowledge-using">We retain knowledge using:<a class="anchor" aria-label="anchor" href="#we-retain-knowledge-using"></a>
 </h4>
 <ul>
-<li><p>Detailed recording of our literature review, so we can understand
-why those papers were reviewed</p></li>
-<li><p>By saving our protocols for use later</p></li>
+<li>Detailed recording of our literature review, so we can understand
+why those papers were reviewed</li>
+<li>By saving our protocols for use later</li>
 </ul>
 </div>
 <div class="section level4">
-<h4 id="we-build-business-continuity-by">We build business continuity by:<a class="anchor" aria-label="anchor" href="#we-build-business-continuity-by"></a>
+<h4 id="we-build-continuity-by">We build continuity by:<a class="anchor" aria-label="anchor" href="#we-build-continuity-by"></a>
 </h4>
 <ul>
-<li><p>By saving our protocols for use later</p></li>
-<li><p>By sharing our registered reports and preregistrations</p></li>
-<li><p>By sharing with the team why those papers were reviewed in your
-literature review</p></li>
+<li>By saving our protocols for use later</li>
+<li>By sharing our registered reports and preregistrations</li>
+<li>By sharing with the team why those papers were reviewed in your
+literature review</li>
 </ul>
 </div>
 </div>
@@ -2007,7 +2029,7 @@ any links that you are not going to use.
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>This is a massive lesson - you may want to put a break in the middle
 or just before this one.</p>
@@ -2041,10 +2063,10 @@ write down notes about your work, link to important documents or share
 information across a research group.</p>
 <p>Examples include:</p>
 <ul>
-<li><p><a href="https://thefaylab.github.io/lab-manual/" class="external-link">The Fay Lab -
-Lab manual</a></p></li>
-<li><p><a href="https://github.com/jpeelle/peellelab_manual/blob/master/peellelab_manual.pdf" class="external-link">The
-Peelle Lab - Lab Manual</a></p></li>
+<li><a href="https://thefaylab.github.io/lab-manual/" class="external-link">The Fay Lab - Lab
+manual</a></li>
+<li><a href="https://github.com/jpeelle/peellelab_manual/blob/master/peellelab_manual.pdf" class="external-link">The
+Peelle Lab - Lab Manual</a></li>
 </ul>
 <p>These are living documents - processes may improve or lessons are
 learnt, and this should be reflected in your updates to your manual.</p>
@@ -2069,7 +2091,7 @@ project?</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
   <h3 class="accordion-header" id="headingInstructor2">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
 <div class="accordion-body">
 <p>You could do this as a verbal activity or a written one.</p>
 <p>Ask people to pick someone they interact with regularly (supervisor,
@@ -2085,7 +2107,7 @@ their own work?</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor3" aria-expanded="false" aria-controls="collapseInstructor3">
   <h3 class="accordion-header" id="headingInstructor3">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor3" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor3" aria-labelledby="headingInstructor3">
+<div id="collapseInstructor3" class="accordion-collapse collapse" aria-labelledby="headingInstructor3" data-bs-parent="#accordionInstructor3">
 <div class="accordion-body">
 <p>Talk about that this scenario does happen. There could be a medical
 emergency such as a stroke or heart attack. They could have won the
@@ -2118,7 +2140,7 @@ work?</p></li>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor4" aria-expanded="false" aria-controls="collapseInstructor4">
   <h3 class="accordion-header" id="headingInstructor4">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor4" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor4" aria-labelledby="headingInstructor4">
+<div id="collapseInstructor4" class="accordion-collapse collapse" aria-labelledby="headingInstructor4" data-bs-parent="#accordionInstructor4">
 <div class="accordion-body">
 <p>Include the options for documentation platforms or elabnotebooks here
 from your institute.</p>
@@ -2150,7 +2172,7 @@ what ingredients you’ve used, and to write how you’ve made it.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor5" aria-expanded="false" aria-controls="collapseInstructor5">
   <h3 class="accordion-header" id="headingInstructor5">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor5" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor5" aria-labelledby="headingInstructor5">
+<div id="collapseInstructor5" class="accordion-collapse collapse" aria-labelledby="headingInstructor5" data-bs-parent="#accordionInstructor5">
 <div class="accordion-body">
 <p>If you’re in a classroom, get them to then stick them on the
 wall.</p>
@@ -2161,7 +2183,7 @@ them there, or put them in a chat or shared google doc etc.</p>
 </div>
 </div>
 <p>Okay, so firstly, let’s talk about our Base.</p>
-<p>Assumedly, you included a base. But did you describe it? Was it thin
+<p>Presumably, you included a base. But did you describe it? Was it thin
 or thick pan? Extra wide New York style?</p>
 <p>What was the base made out of?</p>
 <p>Now, the default answer here is dough. BUT here’s the thing - not
@@ -2172,16 +2194,16 @@ base.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor6" aria-expanded="false" aria-controls="collapseInstructor6">
   <h3 class="accordion-header" id="headingInstructor6">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor6" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor6" aria-labelledby="headingInstructor6">
+<div id="collapseInstructor6" class="accordion-collapse collapse" aria-labelledby="headingInstructor6" data-bs-parent="#accordionInstructor6">
 <div class="accordion-body">
 <p>You can pull a recipe from online to critique.</p>
 <p>You can ask participants to put their hand up if they had:</p>
 <ul>
-<li><p>A base in their ingredients</p></li>
-<li><p>Described what type of base (gf, thick, thin, bought, home
-made)</p></li>
-<li><p>Described how to obtain the base (did they make it from scratch,
-did they talk about a bought base etc)</p></li>
+<li>A base in their ingredients</li>
+<li>Described what type of base (gf, thick, thin, bought, home
+made)</li>
+<li>Described how to obtain the base (did they make it from scratch, did
+they talk about a bought base etc)</li>
 </ul>
 <p>Watch the hands go up and slowly come down.</p>
 <p>If you really want to be a bit dad joke/cheesy ha, you can play “All
@@ -2248,9 +2270,9 @@ Asian dishes).</p>
 contain pineapple. So if you had to make a Hawaiian pizza for the first
 time, you may have some questions.</p>
 <ul>
-<li><p>Do you leave the skin on?</p></li>
-<li><p>Do you cut it in slices or chunks? How big?</p></li>
-<li><p>Do you cook the pineapple first?</p></li>
+<li>Do you leave the skin on?</li>
+<li>Do you cut it in slices or chunks? How big?</li>
+<li>Do you cook the pineapple first?</li>
 </ul>
 <p>We may underestimate or forget the extent of background knowledge we
 have on various topics.</p>
@@ -2282,7 +2304,7 @@ asked for egg on their pizza. How do you do it?</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor7" aria-expanded="false" aria-controls="collapseInstructor7">
   <h3 class="accordion-header" id="headingInstructor7">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor7" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor7" aria-labelledby="headingInstructor7">
+<div id="collapseInstructor7" class="accordion-collapse collapse" aria-labelledby="headingInstructor7" data-bs-parent="#accordionInstructor7">
 <div class="accordion-body">
 <p>You can ask for people to suggest different formats</p>
 </div>
@@ -2337,24 +2359,24 @@ will really appreciate how thoughtful <em>Past You</em> was.</p>
 </h1>
 <p>To start with, we’ve already talked about the following:</p>
 <ul>
-<li><p><a href="step1Folders.html#data-management-plan">Data Management
-Plans</a> - As discussed in lesson 1.</p></li>
-<li><p>What and where you completed <a href="step3MethodStats.html#preregistration">PreRegistration</a> of your
-research project - As discussed in lesson 3.</p></li>
-<li><p>What and where you <a href="step3MethodStats.html#transparent-methodologies-and-protocols">published
-your protocols</a> - As discussed in lesson 3</p></li>
-<li><p>How you handle <a href="step2TidyFiles.html#interview-considerations">missing data</a> -
-As discussed in lesson 2</p></li>
+<li>
+<a href="step1Folders.html#data-management-plan">Data Management
+Plans</a> - As discussed in Step 1.</li>
+<li>What and where you completed <a href="step3MethodStats.html#preregistration">PreRegistration</a> of your
+research project - As discussed in Step 3.</li>
+<li>What and where you <a href="step3MethodStats.html#transparent-methodologies-and-protocols">published
+your protocols</a> - As discussed in Step 3</li>
+<li>How you handle <a href="step2TidyFiles.html#interview-considerations">missing data</a> -
+As discussed in Step 2</li>
 </ul>
 <p>Primarily, this documentation is here for
 <strong><em>you</em></strong>. It is to:</p>
 <ul>
-<li><p>Help you track what you are doing</p></li>
-<li><p>Have a point of reference for future you</p></li>
-<li><p>To alleviate some of the mental load of remembering
-everything</p></li>
-<li><p>If you realise you’ve taken a wrong turn, this can also act as a
-‘History’ of changes.</p></li>
+<li>Help you track what you are doing</li>
+<li>Have a point of reference for future you</li>
+<li>To alleviate some of the mental load of remembering everything</li>
+<li>If you realise you’ve taken a wrong turn, this can also act as a
+‘History’ of changes.</li>
 </ul>
 <p><strong><em>From here, we can include anything you feel is important.
 You can just write what you are working on every day, like a
@@ -2363,29 +2385,29 @@ diary.</em></strong></p>
 <h3 id="documentation-can-also-include">Documentation can also include:<a class="anchor" aria-label="anchor" href="#documentation-can-also-include"></a>
 </h3>
 <ul>
-<li><p>Name and contact of all collaborators</p></li>
-<li><p>Ethics and Governance details</p></li>
-<li><p>Grant Details</p></li>
-<li><p>Contracts and agreements around data ownership, custodianship and
-permitted uses</p></li>
-<li><p>Data Transfer Agreements between institutes, partners and
-consultants</p></li>
-<li><p>Where has the data come from?</p></li>
-<li><p>How were participants recruited for?</p></li>
-<li><p>Participant information sheets &amp; consent forms</p></li>
-<li><p>Survey questions</p></li>
-<li><p>What settings was your equipment in? What brand and model was
-that machine that produced output?</p></li>
-<li><p>Safety precautions needed</p></li>
-<li><p>A copy of your Literature Review</p></li>
-<li><p>Reasoning for experimental design</p></li>
-<li><p>Reasoning for chosen sample sizes</p></li>
-<li><p>How results were calculated and reported, including statistical
-analysis</p></li>
-<li><p>Any rules for predefining and documenting excluded data to avoid
-bias</p></li>
-<li><p>Detailed procedures</p></li>
-<li><p>What didn’t work in your project?</p></li>
+<li>Name and contact of all collaborators</li>
+<li>Ethics and Governance details</li>
+<li>Grant Details</li>
+<li>Contracts and agreements around data ownership, custodianship and
+permitted uses</li>
+<li>Data Transfer Agreements between institutes, partners and
+consultants</li>
+<li>Where has the data come from?</li>
+<li>How were participants recruited for?</li>
+<li>Participant information sheets &amp; consent forms</li>
+<li>Survey questions</li>
+<li>What settings was your equipment in? What brand and model was that
+machine that produced output?</li>
+<li>Safety precautions needed</li>
+<li>A copy of your Literature Review</li>
+<li>Reasoning for experimental design</li>
+<li>Reasoning for chosen sample sizes</li>
+<li>How results were calculated and reported, including statistical
+analysis</li>
+<li>Any rules for predefining and documenting excluded data to avoid
+bias</li>
+<li>Detailed procedures</li>
+<li>What didn’t work in your project?</li>
 </ul>
 <p>Some of this, we would have discussed in folder structures in Step 1.
 You may also have some of this information in your Data Management
@@ -2419,10 +2441,11 @@ It will appear here: https://amandamiotto.github.io/ReproducibleResearch/instruc
 <h3 id="workflow-mapping-analysis-pipelines">Workflow mapping / Analysis Pipelines<a class="anchor" aria-label="anchor" href="#workflow-mapping-analysis-pipelines"></a>
 </h3>
 <p>How did you clean and analyse your data?</p>
-<p>If you’re using an analysis program like SPSS, Stata or even just
-Excel, you can download function list from SPSS/NVIVO to the code used
-to create it. Even just writing down and taking screenshots of the
-analysis screens is somewhere to start.</p>
+<p>It is substantially easier to record data analysis if you’re using
+code scripts rather than point-and-click programs for data analysis. If
+you <em>are</em> using point and click programs, even just writing down
+and taking screenshots of the analysis screens is somewhere to
+start.</p>
 <div id="challenge4" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -2440,7 +2463,7 @@ that produced a derived file?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>A common way is to name your files with a number at the front, so
 1_rawdata.csv, 2_cleandata.csv, 3_analysisdata.csv etc.</p>
@@ -2449,7 +2472,7 @@ that produced a derived file?</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor8" aria-expanded="false" aria-controls="collapseInstructor8">
   <h3 class="accordion-header" id="headingInstructor8">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor8" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor8" aria-labelledby="headingInstructor8">
+<div id="collapseInstructor8" class="accordion-collapse collapse" aria-labelledby="headingInstructor8" data-bs-parent="#accordionInstructor8">
 <div class="accordion-body">
 <p>A good opportunity to share ideas or brainstorm together different
 solutions.</p>
@@ -2471,7 +2494,7 @@ have never coded before. Workshops are held across the world.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor9" aria-expanded="false" aria-controls="collapseInstructor9">
   <h3 class="accordion-header" id="headingInstructor9">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor9" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor9" aria-labelledby="headingInstructor9">
+<div id="collapseInstructor9" class="accordion-collapse collapse" aria-labelledby="headingInstructor9" data-bs-parent="#accordionInstructor9">
 <div class="accordion-body">
 <p>Good place to include any Carpentry or data science introduction
 resources - If you have none, feel free to borrow something from here:
@@ -2497,7 +2520,7 @@ it? What context did location add?</p>
 </h2>
 <p>You may want to create a team password manager, or even just a
 personal one, to track accounts and passwords. This should prevent
-losing account logins where data or analysis may have occured.</p>
+losing account logins where data or analysis may have occurred.</p>
 <div id="challenge5" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -2520,7 +2543,7 @@ similar paper was published with contradicting results.<a class="anchor" aria-la
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Thankfully, we can now do this! We can refer to our notes with our
 detailed methods, analysis pipelines and have links to where our data is
@@ -2549,7 +2572,7 @@ Reports, Volume 6, Issue 5, Pages 779-781, <a href="https://doi.org/10.1016/j.ce
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor10" aria-expanded="false" aria-controls="collapseInstructor10">
   <h3 class="accordion-header" id="headingInstructor10">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor10" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor10" aria-labelledby="headingInstructor10">
+<div id="collapseInstructor10" class="accordion-collapse collapse" aria-labelledby="headingInstructor10" data-bs-parent="#accordionInstructor10">
 <div class="accordion-body">
 <p>The following tabs are a good place to link your SoP templates, Data
 management plan system/templates, talk about research storage solutions
@@ -2577,7 +2600,7 @@ etc.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
 <p>A great place to start is:</p>
 <p>Open a document and start a diary. You can write at the end of the
 day what you did, any results, anything you got stuck on, and any notes
@@ -2586,7 +2609,7 @@ to yourself.</p>
 anywhere, external hard drive etc).</p>
 <p>That’s it. That’s a good start.</p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
+<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
 <p>Time to <strong><em>get detailed</em></strong>. Add some of the
 information from <a href="step4Doco.html#expanding-into-details">Expanding into
 details</a></p>
@@ -2595,7 +2618,7 @@ and Metadata</a></p>
 <p>You can find a list of <a href="https://en.wikipedia.org/wiki/List_of_electronic_laboratory_notebook_software_packages" class="external-link">eLabnotebooks
 here</a>.</p>
 </div>
-<div id="nav-tabpanel-1-3" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-3">
+<div id="nav-tabpanel-1-3" class="tab-pane" aria-labelledby="nav-tab-1-3" role="tabpanel">
 <p>Your next move can be:</p>
 <p>Set up Standard Operating Procedures and maintained Data Management
 Plans for your projects.</p>
@@ -2658,11 +2681,11 @@ letting me share it! <span class="citation">@amandamiotto</span></p>
 <h3 class="callout-title">In this lesson, we have learnt:</h3>
 <div class="callout-content">
 <ul>
-<li><p>What documentation is and how it can help us</p></li>
-<li><p>How to consider the audience you are writing for</p></li>
-<li><p>What to document for staff onboarding and offboarding</p></li>
-<li><p>The curse of knowledge and how that skews our perception</p></li>
-<li><p>What to include for documentation</p></li>
+<li>What documentation is and how it can help us</li>
+<li>How to consider the audience you are writing for</li>
+<li>What to document for staff onboarding and offboarding</li>
+<li>The curse of knowledge and how that skews our perception</li>
+<li>What to include for documentation</li>
 </ul>
 <div class="section level4">
 <h4 id="we-build-trust-in-our-knowledge-by">We build trust in our knowledge by:<a class="anchor" aria-label="anchor" href="#we-build-trust-in-our-knowledge-by"></a>
@@ -2677,11 +2700,11 @@ we did, how we did it and why</p>
 projects</p>
 </div>
 <div class="section level4">
-<h4 id="we-build-business-continuity-by">We build business continuity by:<a class="anchor" aria-label="anchor" href="#we-build-business-continuity-by"></a>
+<h4 id="we-build-continuity-by">We build continuity by:<a class="anchor" aria-label="anchor" href="#we-build-continuity-by"></a>
 </h4>
 <ul>
-<li><p>Having proper onboarding and offboarding</p></li>
-<li><p>Sharing segments of documentation across the team</p></li>
+<li>Having proper onboarding and offboarding</li>
+<li>Sharing segments of documentation across the team</li>
 </ul>
 </div>
 </div>
@@ -2790,7 +2813,7 @@ formatting option could impact your data.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>Can do this next challenge in the class, either pen and paper, on the
 board or in the chat.</p>
@@ -2817,7 +2840,7 @@ why?”</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p><strong><em>Questions could include:</em></strong></p>
 <p>Was it burnt? Or did the cheese not melt?</p>
@@ -2847,7 +2870,7 @@ track.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p><strong><em>Tests could include:</em></strong></p>
 <p>Was the oven on 190 degrees celsius, for 20 minutes?</p>
@@ -2929,7 +2952,7 @@ on your files</a></p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
   <h3 class="accordion-header" id="headingInstructor2">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
 <div class="accordion-body">
 <p>May be a natural space to ask people what types of data they are
 working with, where is it coming from?</p>
@@ -2962,7 +2985,7 @@ every time.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor3" aria-expanded="false" aria-controls="collapseInstructor3">
   <h3 class="accordion-header" id="headingInstructor3">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor3" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor3" aria-labelledby="headingInstructor3">
+<div id="collapseInstructor3" class="accordion-collapse collapse" aria-labelledby="headingInstructor3" data-bs-parent="#accordionInstructor3">
 <div class="accordion-body">
 <p>A good time for suggestions on where to learn R and Python. You’ve
 probably already included it elsewhere, just remind people at this
@@ -2994,7 +3017,7 @@ folder structure from lesson 1.</em></strong></p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor4" aria-expanded="false" aria-controls="collapseInstructor4">
   <h3 class="accordion-header" id="headingInstructor4">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor4" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor4" aria-labelledby="headingInstructor4">
+<div id="collapseInstructor4" class="accordion-collapse collapse" aria-labelledby="headingInstructor4" data-bs-parent="#accordionInstructor4">
 <div class="accordion-body">
 <p>Include links from your institute about where to publish analysis
 pipelines - your institute may have a preferred place, or your Office of
@@ -3341,7 +3364,7 @@ data.</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
 <p>This is a good opportunity to ask researchers what they wish they
 could automate. If you have a research support IT team, local research
@@ -3368,11 +3391,11 @@ software developers or eResearch team, this is a good plug for them.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
 <p>A great place to start is:</p>
 <p>Automate a single thing.</p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
+<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
 <p>Your next move can be:</p>
 <p>Keep automating! It may be worth talking to your organisation’s
 technical team to find out what licences are available or tools they
