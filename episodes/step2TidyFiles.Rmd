@@ -18,7 +18,7 @@ Let's look at a few concepts that can help.
 
 Tidy data developed by Hadley Wickham offer a set of rules to record, organise, and maintain data to ensure your analysis is effective, reproducible, and manageable.
 
-The principles of tidy data provide a standard way to organize data values within a dataset.
+The principles of tidy data provide a standard way to organise data values within a dataset.
 
 Tidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is messy or tidy depending on how rows, columns and tables are matched up with observations, variables and types. 
 
@@ -143,27 +143,13 @@ Have a spreadsheet that has some messy data in it to clean. You can ask everyone
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
-
-
-
-#### Interview considerations
-
-When working with interviews, you may choose to only retain transcripts. However, it is also worth recording what non-verbal cues were shown. Is there a part of the interview where the participant expressed a strong emotion? Were they comfortable or nervous? Did they fidget a lot or laugh a lot? Long pauses? 
-
-Including any personal observations alongside a video can become incredibly useful when it comes to analysis time, or to refresh your memory upon review. It could also be important to support your insights when writing your paper.
-
-
-
 # How to handle missing data
 
 As a project team, it is important to have a consistent way of managing missing data. 
 
- - If data is missing from a cell, are you going to use a blank cell? Or a placeholder such as NA, NULL or N/A ? It's generally unadvisable to use zero, as this can have an effect on any calculations done in those cells.
-
+ - If data is missing from a cell, are you going to use a blank cell? Or a placeholder such as NA, NULL or N/A ? It's generally inadvisable to use zero, as this can have an effect on any calculations done in those cells.
  - Should the whole observation be excluded?
-
  - Has your methodology accounted for how to handle this scenario and any potential skewing of results?
-
  - When publishing, have you discussed how missing data is handled and accounted for?
 
 
@@ -199,21 +185,16 @@ Note: #NAME? should be -O
 
 There are a number of suggested changes:
 
-Dates in the same format
-
-Standard way to handle missing data
-
-DoB instead of Age, as Age can change depending on the date of the year
-
-Standard way to handle location
-
-Spelling mistake in Mail
-
-Because it's been migrated from Excel, the format of -O was changed.
+- Dates in the same format
+- Standard way to handle missing data
+- DoB instead of Age, as Age can change depending on the date of the year
+- Standard way to handle location
+- Spelling mistake in Mail
+- Because it's been migrated from Excel, the format of -O was changed.
 
 ::::::::::::::::::::::::::::::::::::
 
-Now instead of working on an excel sheet, let's turn this into a survey, to make the data more consistant. What would this survey look like?
+Now instead of working on an excel sheet, let's turn this into a survey, to make the data more consistent. What would this survey look like?
 
 :::::::::::::::::::::::::::::::::::: solution
 
@@ -276,9 +257,8 @@ Python has the Pandas library, which follows similar principles. You may also fi
 
 A great place to start is:
 
-Decide how to handle missing data
-
-Use YYYY-MM-DD for dates
+- Decide how to handle missing data
+- Use YYYY-MM-DD for dates
 
 
 ### Advanced
@@ -315,11 +295,8 @@ Kang H. The prevention and handling of the missing data. Korean J Anesthesiol. 2
 ### In this lesson, we have learnt:
 
 - How to tidy the data inside our files
-
 - How to organise columns and rows
-
 - How to handle dates
-
 - How to handle missing data
 
 
@@ -327,7 +304,6 @@ Kang H. The prevention and handling of the missing data. Korean J Anesthesiol. 2
 #### We build trust in our knowledge by:
 
 - Having clarity in our processes for handling missing data
-
 - Having well structured data
 
 
@@ -339,7 +315,7 @@ Minimising the risk of data loss by being well organised
 
 
 
-#### We build business continuity by:
+#### We build continuity by:
 
 
 By being organised, others can quickly gain an understanding of the data
