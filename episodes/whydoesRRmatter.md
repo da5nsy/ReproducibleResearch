@@ -136,6 +136,15 @@ Questions you could ask are:
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+## What are the costs of non-reporoducible science? 
+
+
+- Waste of resources (e.g. time, funding)
+  
+- Misleading knowldege, which would undermine scientific integrity and public trust in research outputs
+  
+- Unethical: Misleading information can be harmful (e.g. psychological reseach that informs policy)
+
 
 ## Factors contributing to the lack of reproducibility
 
@@ -210,6 +219,13 @@ Florian Markowetz listed these "five selfish reasons to work reproducibly":
 
 Markowetz, F. Five selfish reasons to work reproducibly. Genome Biol 16, 274 (2015). https://doi.org/10.1186/s13059-015-0850-7 licenced as CC-BY 4.0
 
+### Other personal gains: 
+
+- Easier to collaborate with others on projects
+  
+- More efficient in long-term (e.g. planning analyses ahead of time, staying organised)
+  
+- It is more rewarding to do honest, and trustworthy science!
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
