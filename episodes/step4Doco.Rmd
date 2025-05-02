@@ -13,63 +13,45 @@ This is a massive lesson - you may want to put a break in the middle or just bef
 
 ## What is documentation
 
-
-
 :::::::::::::::::::::: testimonial
-
 "Documentation is a love letter to your future self" - Damian Conway
-
 :::::::::::::::::::::::::::::::::::::::
 
 We've talked about writing down or noting a lot of information .... but where do we do this? How? What exactly should we write down?
 
-
-Some researchers may think about a lab handbook, a group instruction guide, a team wiki or a knowledge repository. In the IT and Computation space, the word "Documentation" is used as a place to store all information about that project. 
+Some researchers may think about a lab handbook, a group instruction guide, a team wiki or a knowledge repository. 
+In the IT and Computation space, the word "Documentation" is used as a place to store all information about that project. 
 
 For our purposes today, we will use "Documentation" as a place to write down notes about your work, link to important documents or share information across a research group.
-
 
 Examples include:
 
 - [The Fay Lab - Lab manual](https://thefaylab.github.io/lab-manual/)
-
 - [The Peelle Lab - Lab Manual](https://github.com/jpeelle/peellelab_manual/blob/master/peellelab_manual.pdf)
-
 
 These are living documents - processes may improve or lessons are learnt, and this should be reflected in your updates to your manual.
 
-
 Think about this scenario:
 
-
-
 :::::::::::::::::::::::::::::: challenge
-
 If you find you need to focus on other modules or assessments, how long would it take you to familiarise yourself again with your project?
 
 Will you remember where all of the data is stored?
 
 Will you remember where to find important references?
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
 You could do this as a verbal activity or a written one.
 
 Ask people to pick someone they interact with regularly (supervisor, student, collaborator). Then ask them, if contact to this person was completely cut off, what information would they need to know to continue their own work?
-
 :::::::::::::::::::::::::::::::::::::::::::::::
-
-
 ::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
 Talk about that this scenario does happen. There could be a medical emergency such as a stroke or heart attack. They could have won the lotto. Or even been offered a fantastic opportunity overseas with little time to transfer.
 
 Any personal stories here can also be useful if you have them, and are comfortable to share.
-
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
 # How to start documenting
@@ -124,7 +106,7 @@ In a virtual setting, you can put people in break out rooms and share them there
 
 Okay, so firstly, let's talk about our Base.
 
-Assumedly, you included a base. But did you describe it? Was it thin or thick pan? Extra wide New York style?
+Presumably, you included a base. But did you describe it? Was it thin or thick pan? Extra wide New York style?
 
 What was the base made out of? 
 
@@ -139,9 +121,7 @@ You can pull a recipe from online to critique.
 You can ask participants to put their hand up if they had:
 
 - A base in their ingredients
-
 - Described what type of base (gf, thick, thin, bought, home made)
-
 - Described how to obtain the base (did they make it from scratch, did they talk about a bought base etc)
 
 Watch the hands go up and slowly come down.
@@ -174,11 +154,7 @@ This lead to the conversation of what a base must consist of.
 
 ### Details are important!
 
-
-
 #### This shows that while we have assumptions on what is 'normal', this is skewed by our life experience, and others may not have the same 'normal'.
-
-
 
 :::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -193,9 +169,7 @@ In fact, Hawaiian (ham, pineapple and cheese) is a popular pizza in Australia. H
 However, if you come from Italy, none of the traditional pizzas would contain pineapple. So if you had to make a Hawaiian pizza for the first time, you may have some questions.
 
 - Do you leave the skin on?
-
 - Do you cut it in slices or chunks? How big?
-
 - Do you cook the pineapple first?
 
 
@@ -204,19 +178,13 @@ We may underestimate or forget the extent of background knowledge we have on var
 
 :::::::::::::::::::::::::::::::::::::::::::::::
 
-
-
 ## The Curse of Knowledge
 
 May also be referenced as Expert Bias or Curse of Expertise
  
-
 ![](episodes/fig/Open_Science_Training_Handbook_03.png){alt='Someone trying to explain a robot, the other person thinking of a different robot'}
 
-
 When explaining a concept, we assume that others have the same background knowledge and life experiences that we do. 
-
-
 
 However, ***this is rarely true***. 
 
@@ -225,7 +193,6 @@ However, ***this is rarely true***.
 Let's stand on the other side:
 
 Now assume you are making a pizza someone else has ordered. They've asked for egg on their pizza. How do you do it?
-
 
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -261,84 +228,53 @@ When you are specific and detailed in your notes, _Future You_ will really appre
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
 
-
 # What do I include in my documentation?
 
 To start with, we've already talked about the following:
 
- - [Data Management Plans](step1Folders.html#data-management-plan) - As discussed in lesson 1.
-
- - What and where you completed [PreRegistration](step3MethodStats.html#preregistration) of your research project - As discussed in lesson 3.
-
- - What and where you [published your protocols](step3MethodStats.html#transparent-methodologies-and-protocols) - As discussed in lesson 3
-
- - How you handle [missing data](step2TidyFiles.html#interview-considerations) - As discussed in lesson 2
-
-
+ - [Data Management Plans](step1Folders.html#data-management-plan) - As discussed in Step 1.
+ - What and where you completed [PreRegistration](step3MethodStats.html#preregistration) of your research project - As discussed in Step 3.
+ - What and where you [published your protocols](step3MethodStats.html#transparent-methodologies-and-protocols) - As discussed in Step 3
+ - How you handle [missing data](step2TidyFiles.html#interview-considerations) - As discussed in Step 2
 
 Primarily, this documentation is here for ***you***. It is to:
 
  - Help you track what you are doing
-
  - Have a point of reference for future you
-
  - To alleviate some of the mental load of remembering everything
-
  - If you realise you've taken a wrong turn, this can also act as a 'History' of changes.
-
 
 ***From here, we can include anything you feel is important. You can just write what you are working on every day, like a diary.*** 
 
-
-
 ### Documentation can also include:
 
-
  - Name and contact of all collaborators
-
  - Ethics and Governance details
-
  - Grant Details
-
  - Contracts and agreements around data ownership, custodianship and permitted uses
-
  - Data Transfer Agreements between institutes, partners and consultants
-
  - Where has the data come from? 
-
  - How were participants recruited for?
-
  - Participant information sheets & consent forms
-
  - Survey questions
-
  - What settings was your equipment in? What brand and model was that machine that produced output?
-
  - Safety precautions needed
-
  - A copy of your Literature Review
-
  - Reasoning for experimental design
-
  - Reasoning for chosen sample sizes
-
  - How results were calculated and reported, including statistical analysis
-
  - Any rules for predefining and documenting excluded data to avoid bias
-
  - Detailed procedures
-
  - What didn't work in your project? 
 
 Some of this, we would have discussed in folder structures in Step 1. You may also have some of this information in your Data Management Plans.
-
 
 ::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
 ### Standard Operating Procedure
 
-A standard operating procedure (SOP) is a set of step-by-step instructions to help carry out routine operations. SOPs aim to achieve efficiency, quality output, and uniformity of performance, while reducing miscommunication and failure to comply with industry regulations.
-
+A standard operating procedure (SOP) is a set of step-by-step instructions to help carry out routine operations. 
+SOPs aim to achieve efficiency, quality output, and uniformity of performance, while reducing miscommunication and failure to comply with industry regulations.
 
 [Ten simple rules on how to write a standard operating procedure](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008095) is a great start to writing a SoP, and comes with this [useful template](https://zenodo.org/records/3678317#.Y2suUORByUk).
 
@@ -348,13 +284,12 @@ A standard operating procedure (SOP) is a set of step-by-step instructions to he
 ```{r child="files/SOP.Rmd"}
 ```
 
-
-
 ### Workflow mapping / Analysis Pipelines
 
 How did you clean and analyse your data? 
 
-If you're using an analysis program like SPSS, Stata or even just Excel, you can download function list from SPSS/NVIVO to the code used to create it. Even just writing down and taking screenshots of the analysis screens is somewhere to start. 
+It is substantially easier to record data analysis if you're using code scripts rather than point-and-click programs for data analysis.
+If you _are_ using point and click programs, even just writing down and taking screenshots of the analysis screens is somewhere to start. 
 
 :::::::::::::::::::::::::::::: challenge
 
@@ -398,7 +333,7 @@ If you are working with newspapers, artwork or other GLAM (Gallery, Library, Art
 
 ## Passwords
 
-You may want to create a team password manager, or even just a personal one, to track accounts and passwords. This should prevent losing account logins where data or analysis may have occured.
+You may want to create a team password manager, or even just a personal one, to track accounts and passwords. This should prevent losing account logins where data or analysis may have occurred.
 
 
 :::::::::::::::::::::::::::::: challenge
@@ -509,33 +444,22 @@ A shout out to the people in the Cauliflower Pizza story - Thanks for letting me
 ### In this lesson, we have learnt:
 
 - What documentation is and how it can help us
-
 - How to consider the audience you are writing for
-
 - What to document for staff onboarding and offboarding
-
 - The curse of knowledge and how that skews our perception
-
 - What to include for documentation
-
-
-
 
 #### We build trust in our knowledge by:
 
 When asked, we can refer to our notes for further information on what we did, how we did it and why
 
-
 #### We retain knowledge using:
 
 Having notes on what we did, how we did it and why saved for our past projects
 
-
-
-#### We build business continuity by:
+#### We build continuity by:
 
 - Having proper onboarding and offboarding
-
 - Sharing segments of documentation across the team
 
 :::::::::::::::::::::::::::::::::::::::::::::::
