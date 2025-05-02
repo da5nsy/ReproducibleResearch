@@ -165,8 +165,6 @@ The associated data and metadata uses a ‘formal, accessible, shared, and broad
 
 The associated metadata provides rich and accurate information, and the data comes with a  clear usage licence and detailed provenance information. Reusable data should maintain its initial richness.  It should also use discipline-specific data and metadata standards to give it rich contextual information that will allow reuse.
 
-###
-```
 :::
 
 # Where to deposit?
