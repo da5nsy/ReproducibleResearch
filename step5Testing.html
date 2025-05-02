@@ -371,7 +371,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Step 5 - Testing and Controls</h1>
-        <p>Last updated on 2025-04-29 |
+        <p>Last updated on 2025-05-02 |
 
         <a href="https://github.com/da5nsy/ReproducibleResearch/edit/main/episodes/step5Testing.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -384,10 +384,10 @@
         
 
 <section><h2 class="section-heading" id="testing-for-validity-and-integrity">Testing for Validity and Integrity<a class="anchor" aria-label="anchor" href="#testing-for-validity-and-integrity"></a></h2>
-<hr class="half-width"><p>Unintended changes to datasets happen all the time. An added comma in
-a sentence can throw out a line in a spreadsheet. Missing data can alter
-a calculation. A broken link or download that didn’t complete properly
-can short us of data without us realising.</p>
+<hr class="half-width"><p>Unintended changes to datasets can happen easily. An added comma in a
+sentence can throw out a line in a spreadsheet. Missing data can alter a
+calculation. A broken link or download that didn’t complete properly can
+give us incomplete data without us realising.</p>
 <p>But what can we do about this?</p>
 <p>There are a few checks we can run to help identify when this has
 happened.</p>
@@ -403,12 +403,12 @@ an attribute, is the mean of that column an impossible number such as
 <li><p>Does an analysis fail to run? If you look into it, there may be
 an unexpected value, such as a letter where it was expecting a
 number.</p></li>
-</ul><p><a href="https://openrefine.org/" class="external-link">Open Refine</a> is a good tool for
-inspecting your data.</p>
-<p>Again, R and Python have real strengths here, to have a list of tests
-you can run as often as you need. For example, R has a function called
-‘head’ that prints the first 6 lines of any file, so you can do a visual
-check of the data quickly.</p>
+</ul><p>Again, R and Python have real strengths here, as you can run certain
+code to help you find probelmatic entries. For example, R has a function
+called ‘head’ that prints the first 6 lines of any file, so you can do a
+visual check of the data quickly. You can also use functions like
+filter() to filter out any rows with values above or below what is
+expected.</p>
 <div id="coding-resources-for-testing-the-integrity-of-data" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -429,28 +429,25 @@ code.</p></li>
 </ul></div>
 </div>
 </div>
-<div id="microsoft-excel-changing-gene-names" class="callout discussion">
+<div id="microsoft-excel-default-settings" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="microsoft-excel-changing-gene-names" class="callout-inner">
-<h3 class="callout-title">Microsoft Excel changing Gene names</h3>
+<div id="microsoft-excel-default-settings" class="callout-inner">
+<h3 class="callout-title">Microsoft Excel default settings</h3>
 <div class="callout-content">
 <p>As per the following paper: Ziemann, M., Eren, Y. &amp; El-Osta, A.
 Gene name errors are widespread in the scientific literature. Genome
 Biol 17, 177 (2016). <a href="https://doi.org/10.1186/s13059-016-1044-7" class="external-link uri">https://doi.org/10.1186/s13059-016-1044-7</a> licenced as
 CC-BY 4.0</p>
 <p>” The spreadsheet software Microsoft Excel, when used with default
-settings, is known to convert gene names to dates and floating-point
-numbers. A programmatic scan of leading genomics journals reveals that
-approximately one-fifth of papers with supplementary Excel gene lists
-contain erroneous gene name conversions.”</p>
-<p>In a follow up story: Abeysooriya M, Soria M, Kasu MS, Ziemann M
-(2021) Gene name errors: Lessons not learned. PLoS Comput Biol 17(7):
-e1008984. <a href="https://doi.org/10.1371/journal.pcbi.1008984" class="external-link uri">https://doi.org/10.1371/journal.pcbi.1008984</a></p>
-<p>“[The previous] article on this topic led the Human Gene Name
-Consortium to change many of these gene names to be less susceptible to
-autocorrect.”</p>
+settings has a tenadency to automatically convert values. The result
+maybe that data is converted into a format you don’t need, for example
+converting date data from UK date format of dd/mm/yyyy to mm/dd/yyyy. In
+the paper above the authors highlight that Excel is known to convert
+gene names to dates and floating-point numbers. The error is common and
+has even made it into approximately one-fifth of papers with
+supplementary Excel gene lists.”</p>
 <p>To remedy this, there is now an option to turn off automatic data
 conversion - but you need to be aware of it.</p>
 <p>It was suggested to reviewers and editorial staff:</p>
@@ -458,6 +455,9 @@ conversion - but you need to be aware of it.</p>
 of gene names and pasting it into a new sheet, and then sorting the
 column. Any gene symbols converted to dates will appear as numbers at
 the top of the column.”</p>
+<p>Make sure if you are importing or exporting data into software like
+Excel, that you double check any potential areas where a default
+formatting option could impact your data.</p>
 </div>
 </div>
 </div>
@@ -618,22 +618,6 @@ formulae and change to test hypotheses</p></li>
 <li><p>Collaboration: Track changes, merge input.</p></li>
 </ol><p><strong><em>These analysis pipelines can be saved as part of your
 folder structure from lesson 1.</em></strong></p>
-<div id="testimonial1" class="callout testimonial">
-<div class="callout-square">
-<i class="callout-icon" data-feather="heart"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Testimonial</h3>
-<div class="callout-content">
-<p><strong><em>Publishing these pipelines, either as part of your
-publication, as a protocol or in a public repository such as OSF, Github
-or similar improves your reproducibility, and provides others a greater
-understanding of your work.</em></strong></p>
-<p><a href="step3MethodStats.html#publishing-your-protocol">Step 3 -
-Publishing Protocols link.</a></p>
-</div>
-</div>
-</div>
 
 <!-- Got any organisation information on publishing analysis pipelines? Do you suggest github etc? Do you have a licencing person? Include it below.
 
@@ -661,8 +645,6 @@ pipeline.</p>
 <p>You may be making changes to your analysis pipeline as you go</p>
 <ul><li><p>How are you taking notes of these changes?</p></li>
 <li><p>What version of software are you using?</p></li>
-<li><p>Have you noted what version of the libraries you are using
-are?</p></li>
 <li><p>Have you noted the name, model and version number of any hardware
 you may be using (for example, cameras, microscopes, MRI machines, IoT
 sensors)?</p></li>
@@ -687,93 +669,23 @@ v1.2).</p>
 </div>
 </div>
 </div>
-<div class="section level4">
-<h4 id="using-computational-tools">Using computational tools<a class="anchor" aria-label="anchor" href="#using-computational-tools"></a></h4>
-<p>If you are using R or Python, your next best friend is Git.</p>
-<p>Git is a program to track changes in your code. You may have heard of
-Github or Gitlab - these are cloud platforms that use the Git program to
-track your code as you write it.</p>
-<p>Sharing your analysis pipeline then becomes easy. You can even write
-reports with both plain text, R or Python code and the results in graphs
-in platforms such as Jupyter.</p>
-<div id="to-learn-more-about-git" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div id="to-learn-more-about-git" class="callout-inner">
-<h3 class="callout-title">To learn more about Git</h3>
-<div class="callout-content">
-<p><a href="https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf" class="external-link">The
-British Ecological Society</a> has a great Git tutorial under ‘Version
-Control’.</p>
-<p><a href="https://docs.github.com/en/get-started/start-your-journey/hello-world" class="external-link">Start
-your journey in GitHub</a></p>
-<p>The Carpentries has a <a href="https://swcarpentry.github.io/git-novice/" class="external-link">Software Carpentry -
-Version Control with Git</a> lesson you can follow.</p>
-</div>
-</div>
-</div>
 <p>Retaining a copy of your raw data prior to any cleaning or analysis
 is also useful to version control.</p>
 </div>
-</div>
 <div class="section level3">
-<h3 id="containers">Containers<a class="anchor" aria-label="anchor" href="#containers"></a></h3>
-<p>You may even want to try <a href="https://carpentries-incubator.github.io/docker-introduction/" class="external-link">Containers</a>
-to publish your workflows. Think about Containers like a machine with
-all the instructions and installations inside - you can pass this box to
-others. They can put data into the machine, and processed data comes out
-the other side, without needing to pull apart and put the box
-together.</p>
-<p>Containers also build automation into our workflows - we’ll talk more
-about automation in our next lesson.</p>
-</div>
-<div class="section level3">
-<h3 id="using-machine-learning">Using Machine Learning?<a class="anchor" aria-label="anchor" href="#using-machine-learning"></a></h3>
-<p>The following paper may be useful to learn about ML platforms and
-reproducibility.</p>
-<p><a href="https://10.1109/eScience.2019.00017" class="external-link">R. Isdahl and O. E.
-Gundersen, “Out-of-the-Box Reproducibility: A Survey of Machine Learning
-Platforms,” 2019 15th International Conference on eScience (eScience),
-San Diego, CA, USA, 2019, pp. 86-95, doi:
-10.1109/eScience.2019.00017.</a></p>
-</div>
-</div>
-<div class="section level1">
-<h1 id="what-is-your-next-step">What is your next step?<a class="anchor" aria-label="anchor" href="#what-is-your-next-step"></a></h1>
-<div class="tabs">
-<nav><div id="nav-tab-1" class="nav nav-tabs" role="tablist">
-<button class="nav-link active" id="nav-tab-1-1" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-1-1" type="button" role="tab" aria-controls="nav-tabpanel-1-1" aria-selected="true">
-  <h3 class="tab-header" id="nav-tab-heading-1-1">
-  Beginner
-  </h3>
-</button>
-<button class="nav-link" id="nav-tab-1-2" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-1-2" type="button" role="tab" aria-controls="nav-tabpanel-1-2" aria-selected="false">
-  <h3 class="tab-header" id="nav-tab-heading-1-2">
-  Advanced
-  </h3>
-</button>
-</div>
-</nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
+<h3 id="beginner">Beginner<a class="anchor" aria-label="anchor" href="#beginner"></a></h3>
 <p>A great place to start is:</p>
 <p>Save your analysis pipeline and store it safely in your organised
 folders.</p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
+<div class="section level3">
+<h3 id="advanced">Advanced<a class="anchor" aria-label="anchor" href="#advanced"></a></h3>
 <p>Your next move can be:</p>
-<p>Ensure your data is well described (As per Step 2).</p>
-<p>Check that it is clear which of your datasets pair with your Analysis
-pipelines and in what order.</p>
-<p>Publish your protocols and code.</p>
 <ul><li><p>Ensure your data is well described (As per Step 2).</p></li>
 <li><p>Check that it is clear which of your datasets pair with your
 Analysis pipelines and in what order.</p></li>
 <li><p>Publish your protocols and code.</p></li>
-</ul></div>
-</div>
-</div>
-<div id="resources" class="callout">
+</ul><div id="resources" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
@@ -870,6 +782,7 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
+</div>
 
 
 
@@ -931,8 +844,8 @@ any links that you are not going to use.
   "url": "https://da5nsy.github.io/ReproducibleResearch/step5Testing.html",
   "identifier": "https://da5nsy.github.io/ReproducibleResearch/step5Testing.html",
   "dateCreated": "2025-04-09",
-  "dateModified": "2025-04-29",
-  "datePublished": "2025-04-29"
+  "dateModified": "2025-05-02",
+  "datePublished": "2025-05-02"
 }
 
   </script><script>
