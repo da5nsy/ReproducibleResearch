@@ -36,9 +36,9 @@ Even having an automated Sync client for your backups is a form of automation!
 
 ### Idea - Contact me form
 
-It could be a link in your work that directs to a 'Contact me' form or a 'book a time with me' system. 
+It could be a link in your work that directs to a survey or form, or a copy of a debreif sheet held online. 
 
-For example, you may have a 'Contact me' form that asks for 
+For example, you may have a 'sign-up for participation' form that asks for 
 
  - Name
 
@@ -46,25 +46,18 @@ For example, you may have a 'Contact me' form that asks for
 
  - What organisation are they from? 
 
- - What paper or resource do they wish to discuss? (URL)
+ - What their availeability is for an interview.
 
- - Do they want to request [Data, Code, Other]?
-
- - What are their plans for the Data/Code?
-
- - If they are reusing the Data/Code, what licence do they plan to use?
 
 This saves you:
 
 - Time and effort sending multiple emails to gather this information
 
-- Have only one place to update your email address if you move organisations or change name
 
-You can even add some commonly requested links in your form, directing them to your protocols and data repositories, your organisation's repositories or somewhere central like an ORCID id page. 
+You can even add some commonly requested links in your form, directing them to your information sheet. 
 
 You could automatically send them back an email with some expectation management ("I will get back to you within 10 business days") and information about your work, and have this form save to a spreadsheet, so you can keep a list of people who may be reusing your work. 
 
-You can email them with your preferred citation ([helpful guide](https://the-turing-way.netlify.app/communication/citable/citable-cite)). Knowing how your work has been reused and referenced can be useful when you are applying for the next round of grants.
 
 :::::::::::::::::::::::::::::::::::::::::::::::
 

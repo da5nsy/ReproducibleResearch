@@ -28,13 +28,12 @@ This information will be visible here: https://amandamiotto.github.io/Reproducib
 -->
 
 
+If you would like to find out more about pre-registration and registered reports the library team has an upcoming session on Thursday 5th June from 11am until 12pm: https://www.eventbrite.co.uk/e/getting-started-with-pre-registration-and-registered-reports-tickets-1311917192639?aff=oddtdtcreator
 
 If you could pick one thing to do differently in your research right now, what would it be?
 What tools and ideas are most relevent to you? Which ideas _don't_ feel relevent to you right now?
-For each of our 7 lessons, do we have an action item that ideally we would do?
-What are the barriers going to be?
+For some of our 7 lessons, do we have some action points that ideally we would do?
 
-Let’s establish concrete action items for the upcoming week or two based on the tasks we’ve just documented.
 
 ::::::::::::::::::::::::::::::::::::::::::::::: challenge
 

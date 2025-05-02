@@ -5,7 +5,7 @@ exercises: 1
 ---
 
 
-You are nearing the end of this project, and need to start preparing for publication. What needs to be done?
+Imagine are nearing the end of your project, and need to start thinking about publication. What needs to be done?
 
 ::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -67,10 +67,6 @@ Barcode: 32888493 may work in a lab, however may not be unique outside a lab. Or
  - DOI
 
  - ORCID
-
-This video from [Research Data Netherlands](https://www.youtube.com/watch?v=PgqtiY7oZ6k) explains persistent identifiers and data citation.
-
-Let's go into these in more detail.
 
 #### Digital Object Identifiers (DOIs) - Identify information
 
@@ -140,23 +136,8 @@ Let's look at our options.
 
 # Open vs FAIR vs Can't share
 
-Firstly, if you can share your work openly - Great!
+Firstly, if you can share your work or data openly - Great!
 
-
-Learn more about the distinction between [open data, FAIR data and Research Data Management here.](https://insights.uksg.org/articles/10.1629/uksg.468). 
-Considering why you should share your data? Check [this video](https://www.youtube.com/watch?v=8qsHFHHPrw0)
-
-::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Does your institute have a policy, statement, procedure or resources on open access or publishing data and materials openly?
-
-Link to them here.
-
-You can also find examples of who has published openly in your institute.
-
-Have you got an open network?
-
-::::::::::::::::::::::::::::::::::::::::::::::: 
 
 
 <!-- Include information about open access/publishing here. 
@@ -165,15 +146,6 @@ This information will appear here:
 "Open vs FAIR vs Can’t share" on https://amandamiotto.github.io/ReproducibleResearch/instructor/step7PublishPIDReuse.html
 -->
 
-
-
-Prior to sharing, ensure you have clearly defined the licence, IP and attribution attached to your work.
-
-::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Link to your organisation's IP/Copyright person.
-
-::::::::::::::::::::::::::::::::::::::::::::::: 
 
 
 <!-- Who do researchers talk to for copyright and IP help? Got a website?
@@ -189,11 +161,7 @@ There are plenty of reasons you may not be able to share your data and pipelines
 
 In these cases, you could consider making your data as FAIR as possible. 
 
-This means you want to share the data, have it well described and have it in a good shape for sharing, but you can mediate requests and access. 
-
-Mediation of access can include caveats such as the need for a Data Transfer Agreement, limitations according to the ethics and governance, or other controls. 
-
-More information on [FAIR can be found here](https://ardc.edu.au/resource/fair-data/)
+This means you want to share the data, have it well described and have it in a good shape for sharing, but you can choose when to allow requests and access. 
 
 ## FAIR Data
 
@@ -205,84 +173,23 @@ More information on [FAIR can be found here](https://ardc.edu.au/resource/fair-d
 
 ### Findable
 
-The data has sufficiently rich metadata and a unique and persistent identifier to be easily discovered by others. This includes assigning a persistent identifier (like a DOI or Handle), having rich metadata to describe the data and making sure it is findable through disciplinary local or international discovery portals.
+The data has sufficiently rich metadata (for example a codebook or analysis plan) and a unique and persistent identifier (like a DOI or Handle) to be easily discovered by others. 
 
 
 ### Accessible
 
-The data is retrievable by humans and machines through a standardised communication protocol, with authentication and authorisation where necessary. The data does not necessarily have to be open. Data can be sensitive due to privacy concerns, national security or commercial interests. When it’s not able to be open, there should be clarity and transparency around the conditions governing access and reuse.
+The data is retrievable by humans and machines through a standardised communication protocol, with authentication and authorisation where necessary.
 
 
 ### Interoperable
 
-The associated data and metadata uses a ‘formal, accessible, shared, and broadly applicable language for knowledge representation’. This involves using community accepted languages, formats and vocabularies in the data and metadata. Metadata should reference and describe relationships to other data, metadata and information through identifiers.
-
+The associated data and metadata uses a ‘formal, accessible, shared, and broadly applicable language for knowledge representation’. This involves using community accepted languages, formats and vocabularies in the data and metadata. 
 
 ### Reusable
 
-The associated metadata provides rich and accurate information, and the data comes with a  clear usage licence and detailed provenance information. Reusable data should maintain its initial richness. For example, it should not be diminished for the purpose of explaining the findings in one particular publication. It needs a clear machine readable licence and provenance information on how the data was formed. It should also use discipline-specific data and metadata standards to give it rich contextual information that will allow reuse.
-
-###
+The associated metadata provides rich and accurate information, and the data comes with a  clear usage licence and detailed provenance information. Reusable data should maintain its initial richness.  It should also use discipline-specific data and metadata standards to give it rich contextual information that will allow reuse.
 
 :::
-
-# Licensing
-
-When publishing supplimentary data, or wanting to share code, analysis pipelines, any datasets or other grey outputs, it is incredibly important to attach a license.
-
-A licences provides guidence and sets legal obligations on
-
-- Who can reuse this material and for what?
-
-- Can this be used commercially?
-
-- No warranties are given or similar
-
-- If someone uses your work as part of their project, are they obligated to also use the same license?
-
-- Do they need to attribute your work?
-
-Attribution especially is very important as it can help with redirecting people to your original work and builds your reputation. 
-
-This [guide on licencing](https://help.osf.io/article/148-licensing) from OSF is a good place to start on what are the different types of licenses, what are the restrictions on each, how to license material such as preprints, registrations and projects and more.
-
-Connect with your organisation's IP, Copyright and Commercialisation team for more assistance.
-
-
-::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Link to your organisation's commercialisation team.
-
-::::::::::::::::::::::::::::::::::::::::::::::: 
-
-
-<!-- Who do researchers talk to for copyright and IP help? Got a website?
-
-This will appear on: 
-"Open vs FAIR vs Can't share" on https://[YourRepo].github.io/ReproducibleResearch/instructor/step7PublishPIDReuse.html
-"Licensing" on https://[YourRepo].github.io/ReproducibleResearch/instructor/step7PublishPIDReuse.html
-
--->
-
-
-
-<!-- Include information about your commercialisation team here.
-
-It will appear in the licencing section of https://[yourRepo].github.io/ReproducibleResearch/instructor/step7PublishPIDReuse.html
--->
-
-
-::::::::::::::::::::::::::::::::::::::::::::::: discussion
-
-#### Resources
-
-Here's a great guide on [Publishing with sensitive data](https://ardc.edu.au/resource/publishing-sensitive-data-guide/)
-
-
-[Mitigating the risk when sharing data](https://github.com/cbahlai/OSRR_course/blob/master/15_sharing_data.md)
-
-:::::::::::::::::::::::::::::::::::::::::::::::
-
 
 # Where to deposit?
 
@@ -338,33 +245,6 @@ There are a number of journals that specialise in these results.
  - Have you discussed how you handled missing data?
 
  - Should you include a reflective statement, with consideration on how your own bias/ priviledges/ world views may impact the findings?
-
-::::::::::::::::::::::::::::::::::::::::::::::: 
-
-::::::::::::::::::::::::::::::::::::::::::::::: challenge
-
-## What if a collaborative relationship sours?
-
-Imagine you have been working with a collaborative partner in a different organisation. As you finish your project, they state that they are no longer interested in working together and are going to apply for the next grant with another partner.
-
-How will this affect you?
-
-What steps have we taken so far to help protect our position?
-
-:::::::::::::::::::::::::::::: solution
-
-This may affect you 
-
-
-However, we've already taken steps to protect ourselves and safeguard against any potential fallout.
-
-We've documented our [ethics and governance](episodes/step4Doco.html) documents and have clarified the conditions around reuse of the data, whether the data can be shared and what the data can be used for.
-
-We've licensed our pipelines and data to specify whether it can be reused or if it can be commercialised, and if we need to be cited.
-
-
-
-:::::::::::::::::::::::::::::: 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
