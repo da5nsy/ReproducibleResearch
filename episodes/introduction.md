@@ -111,7 +111,34 @@ On unresponsive authors, it's not always malicious:
 ## The bottom line...
 - Replication issues aren't always products of malicious intent
 - honest errors happen... a lot!
-- (Although, check out Data Colada's blog posts on Harvard Univeristy professor researching honesty, who was caught for falsifying their data) 
+- (Although, check out Data Colada's blog posts on Harvard Univeristy professor researching honesty, who was caught for falsifying their data)
+
+
+## Is there really a crisis?
+### The Reproducibility Crisis
+
+::::::::::::::::::::::::::::::::::::: discussion
+
+#### Nature paper - 1,500 scientists lift the lid on reproducibility
+
+In the Nature paper "1,500 scientists lift the lid on reproducibility", researchers were surveyed about reproducibility.
+
+ - Over 70% of researchers who had tried to replicate another researcher's experiments failed.
+
+
+ - Over half had failed to reproduce their **own** experiments.
+
+
+
+***These are not insignificant numbers.***
+
+
+
+A number of interesting insights came from this study:
+
+ - Half of researchers surveyed agreed that there was a significant crisis of reproducibility
+
+ - almost 70% still trusted that even though these papers couldn't be reproduced, that the results were probably correct
 
 
 :::
