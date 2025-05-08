@@ -140,7 +140,7 @@ A number of interesting insights came from this study:
 
  - almost 70% still trusted that even though these papers couldn't be reproduced, that the results were probably correct
 
-
+:::::::::::::::::::::::::::::::::::::
 :::
 
 
