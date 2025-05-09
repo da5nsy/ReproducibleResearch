@@ -55,9 +55,7 @@ Combining replicable and robust findings allow us to form generalisable results.
 
 :::
 
-![](https://the-turing-way.netlify.app/_images/reproducible-definition-grid.svg){alt='A grid showing the above 4 definitions'}
-
-::: tab
+![](fig/reproducible-matrix.jpg){alt='A grid showing the above 4 definitions'}
 
 ## How did we get here?
 > “It can be proven that most claimed research findings are false.” (Ioannidis, 2005)
@@ -72,18 +70,18 @@ Combining replicable and robust findings allow us to form generalisable results.
  
 ### In 2011... 
 - Simmons (2011) publishes a paper on flexibility in design, analysis and reporting that affects significance of your results
-- They mention various, common "Questionnable Research Practices (QRPs)" that inflate *false positives*
+- They mention various, common "Questionable Research Practices (QRPs)" that inflate *false positives*
     - Example: Researcher is interested in the relationship between listening to music and memory performance 
         - Control Group 1: No music, matched task e.g. colouring 
         - Experimental Groups: Pop, Rock, Classical, R&B, Hip-hop, Jazz, Country, Blues 
     - Only find a significant relationship between listening to rock music and memory performance
     - QRP 1: Researcher writes up the results, *ignoring all the other conditions* and concludes that music affects memory
-    - QRP 2: Researcher *changes their predictions*, initally thought music would improve memory, but finds opposite results
+    - QRP 2: Researcher *changes their predictions*, initially thought music would improve memory, but finds opposite results
   
 >“If there are participants you don’t like, or trials, observers, or interviewers who gave you anomalous results, drop them […]. Go on a fishing expedition for something—anything—interesting.” (Bem, 2003) 
 
 ### 2012... How common are QRPs?
-- John et al. (2012) asked ~2000 researchers, (1) how many QRPs they enagage in, and (2) how many QRPs their collegues engage in
+- John et al. (2012) asked ~2000 researchers, (1) how many QRPs they engage in, and (2) how many QRPs their colleagues engage in
   - ~60% admitted to not reporting all of their dependent variables (outcome variables)
   -  ~40% admitted to only reporting experiments that had worked
   -  ~50% admitted to engaging in optional stopping (collecting more data if you don't find statistically significant results)
@@ -111,7 +109,7 @@ On unresponsive authors, it's not always malicious:
 ## The bottom line...
 - Replication issues aren't always products of malicious intent
 - honest errors happen... a lot!
-- (Although, check out Data Colada's blog posts on Harvard Univeristy professor researching honesty, who was caught for falsifying their data)
+- (Although, check out Data Colada's blog posts on Harvard University professor researching honesty, who was caught for falsifying their data)
 
 
 ## Is there really a crisis?
@@ -141,7 +139,6 @@ A number of interesting insights came from this study:
  - almost 70% still trusted that even though these papers couldn't be reproduced, that the results were probably correct
 
 :::::::::::::::::::::::::::::::::::::
-:::
 
 
 Let's look now on why this is important.
@@ -156,7 +153,7 @@ Reference: Definitions — The Turing Way Community. (2022). The Turing Way: A h
 
 The Turing Way Community. This illustration is created by Scriberia with The Turing Way community, used under a CC-BY 4.0 licence. DOI: https://doi.org/10.5281/zenodo.3332807
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: keypoints
