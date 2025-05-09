@@ -57,8 +57,6 @@ Combining replicable and robust findings allow us to form generalisable results.
 
 ![](fig/reproducible-matrix.jpg){alt='A grid showing the above 4 definitions'}
 
-::: tab
-
 ## How did we get here?
 > “It can be proven that most claimed research findings are false.” (Ioannidis, 2005)
 
@@ -141,7 +139,6 @@ A number of interesting insights came from this study:
  - almost 70% still trusted that even though these papers couldn't be reproduced, that the results were probably correct
 
 :::::::::::::::::::::::::::::::::::::
-:::
 
 
 Let's look now on why this is important.
@@ -156,7 +153,7 @@ Reference: Definitions — The Turing Way Community. (2022). The Turing Way: A h
 
 The Turing Way Community. This illustration is created by Scriberia with The Turing Way community, used under a CC-BY 4.0 licence. DOI: https://doi.org/10.5281/zenodo.3332807
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: keypoints
