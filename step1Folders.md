@@ -135,7 +135,7 @@ so on….
 
 Consider this folder - does this feel organised? Are you sure what contains what? 
 
-![](episodes/fig/Naming-pre.png){alt='disorganised and poorly named files'}
+![](fig/Naming-pre.png){alt='disorganised and poorly named files'}
 
 How would you change this?
 
@@ -144,7 +144,7 @@ How would you change this?
 
 Now consider this folder - is it clear what the order is? Do you feel you could track this better?
 
-![](episodes/fig/Naming-post.png){alt='well organised files'}
+![](fig/Naming-post.png){alt='well organised files'}
 
 
 ::::::::::::::::::::::::::::::::::::::::

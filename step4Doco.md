@@ -187,7 +187,7 @@ We may underestimate or forget the extent of background knowledge we have on var
 
 May also be referenced as Expert Bias or Curse of Expertise
  
-![](episodes/fig/Open_Science_Training_Handbook_03.png){alt='Someone trying to explain a robot, the other person thinking of a different robot'}
+![](fig/Open_Science_Training_Handbook_03.png){alt='Someone trying to explain a robot, the other person thinking of a different robot'}
 
 When explaining a concept, we assume that others have the same background knowledge and life experiences that we do. 
 
