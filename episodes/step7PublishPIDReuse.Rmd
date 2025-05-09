@@ -141,7 +141,7 @@ This means you want to share the data, have it well described and have it in a g
 
 ## FAIR Data
 
-![](episodes/fig/FAIRnessOfData.png){alt='FAIR as images'}
+![](fig/FAIRnessOfData.png){alt='FAIR as images'}
 
 
 ::: tab 

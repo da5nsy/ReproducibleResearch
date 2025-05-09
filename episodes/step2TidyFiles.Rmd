@@ -200,9 +200,9 @@ Now instead of working on an excel sheet, let's turn this into a survey, to make
 
 Here's an example survey:
 
-![](episodes/fig/ExampleSurvey.png){alt='First part of survey'}
+![](fig/ExampleSurvey.png){alt='First part of survey'}
 
-![](episodes/fig/ExampleSurvey2.png){alt='Second part of survey'}
+![](fig/ExampleSurvey2.png){alt='Second part of survey'}
 
 
 :::::::::::::::::::::::::::::::::::: 

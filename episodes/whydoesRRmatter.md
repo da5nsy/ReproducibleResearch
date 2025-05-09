@@ -23,7 +23,7 @@ Another way we ensure our research credibility is reproducibility - can someone 
 
 This also has the added benefit of encouraging reuse of the data and research methods - with research being a costly exercise, often at government (and general public) expense, producing quality results and enabling reuse is our responsibilty to the world. 
 
-![](episodes/fig/findingdata.jpeg){alt='a person looking for data through binoculars'}
+![](fig/findingdata.jpeg){alt='a person looking for data through binoculars'}
 
 The digital age brings us both benefits and dangers. While we have the knowledge of the world at our fingertips, sifting through the buzz to find the knowledge is difficult and nuanced. With all the information on the internet and social media, how do people know what to trust?
 
